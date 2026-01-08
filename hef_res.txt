@@ -1,0 +1,45 @@
+📊 FINAL PERFORMANCE
+Avg Latency:    3.39 ms
+Final Accuracy: 83.46%
+========================================
+ DETAILED CLASSIFICATION REPORT
+/home/kogge/Desktop/reem/mars-landmark-classification/hailo-rpi5-examples/venv_hailo_rpi_examples/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/kogge/Desktop/reem/mars-landmark-classification/hailo-rpi5-examples/venv_hailo_rpi_examples/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/kogge/Desktop/reem/mars-landmark-classification/hailo-rpi5-examples/venv_hailo_rpi_examples/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+               precision    recall  f1-score   support
+
+        Other       0.83      1.00      0.91      1251
+       Crater       0.00      0.00      0.00       100
+    Dark Dune       0.00      0.00      0.00        25
+ Slope Streak       0.00      0.00      0.00        45
+  Bright Dune       0.00      0.00      0.00        40
+Impact Ejecta       0.00      0.00      0.00         4
+ Swiss Cheese       0.00      0.00      0.00        24
+       Spider       0.00      0.00      0.00        10
+
+     accuracy                           0.83      1499
+    macro avg       0.10      0.12      0.11      1499
+ weighted avg       0.70      0.83      0.76      1499
+
+============================================================
+
+✨ Evaluation complete. Report printed and matrix saved as 'mars_confusion_matrix.png'
+✅ Evaluation complete. Final matrix saved.
+✅ Evaluation complete. Final matrix saved.
+(venv_hailo_rpi_examples) kogge@raspberrypi:~/Desktop/reem/mars-landmark-classification $ hailortcli run mars_landmark.hef
+Running streaming inference (mars_landmark.hef):
+  Transform data: true
+    Type:      auto
+    Quantized: true
+[HailoRT] [warning] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[HailoRT] [warning] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+Network mars_landmark/mars_landmark: 100% | 1175 | FPS: 234.95 | ETA: 00:00:00
+> Inference result:
+ Network group: mars_landmark
+    Frames count: 1175
+    FPS: 234.95
+    Send Rate: 282.93 Mbit/s
+    Recv Rate: 0.02 Mbit/s

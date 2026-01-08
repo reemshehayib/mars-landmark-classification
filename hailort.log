@@ -1,0 +1,974 @@
+[2026-01-06 21:56:51.266] [64159] [HailoRT] [error] [hailort_driver.cpp:236] [validate_driver_version] CHECK failed - Driver version (4.18.0) is different from library version (4.20.0)
+[2026-01-06 21:56:51.273] [64159] [HailoRT] [error] [hailort_driver.cpp:258] [HailoRTDriver] Driver version mismatch, status HAILO_INVALID_DRIVER_VERSION(76)
+[2026-01-06 21:56:51.274] [64159] [HailoRT] [error] [hailort_driver.cpp:183] [create] CHECK_SUCCESS failed with status=HAILO_INVALID_DRIVER_VERSION(76)
+[2026-01-06 21:56:51.314] [64159] [HailoRT] [error] [pcie_device.cpp:91] [create] CHECK_SUCCESS failed with status=HAILO_INVALID_DRIVER_VERSION(76)
+[2026-01-06 21:56:51.314] [64159] [HailoRT] [error] [device.cpp:128] [create_pcie] CHECK_SUCCESS failed with status=HAILO_INVALID_DRIVER_VERSION(76)
+[2026-01-06 21:59:13.872] [2806] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-06 21:59:13.874] [2806] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-06 21:59:13.876] [2806] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 00:12:28.620] [3233] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 00:12:28.621] [3233] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 00:12:28.623] [3233] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 00:13:43.156] [3306] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 00:13:43.158] [3306] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 00:13:43.159] [3306] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 00:29:26.668] [6025] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 00:29:26.671] [6025] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 00:29:26.675] [6025] [HailoRT] [error] [control.cpp:228] [log_detailed_fw_error] Firmware control has failed. Major status: 0x400300b4, Minor status: 0x400300b4
+[2026-01-08 00:29:26.681] [6025] [HailoRT] [error] [control.cpp:233] [log_detailed_fw_error] Firmware major status: CONTROL_PROTOCOL_STATUS_UNSUPPORTED_DEVICE
+[2026-01-08 00:29:26.681] [6025] [HailoRT] [error] [control.cpp:240] [log_detailed_fw_error] Firmware minor status: CONTROL_PROTOCOL_STATUS_UNSUPPORTED_DEVICE
+[2026-01-08 00:29:26.681] [6025] [HailoRT] [error] [control.cpp:257] [log_detailed_fw_error] Opcode HAILO_CONTROL_OPCODE_POWER_MEASUEMENT is not supported on the current board.
+[2026-01-08 00:29:26.681] [6025] [HailoRT] [error] [device.cpp:332] [power_measurement] CHECK_SUCCESS failed with status=HAILO_UNSUPPORTED_OPCODE(48)
+[2026-01-08 00:30:04.116] [6104] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 00:30:04.118] [6104] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 00:30:04.119] [6104] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 02:31:46.070] [7614] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 02:31:46.083] [7614] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 02:31:46.084] [7614] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 02:31:46.084] [7614] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 02:31:46.085] [7614] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 02:31:46.085] [7614] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 02:31:46.095] [7614] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 02:31:46.095] [7614] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 02:31:46.095] [7614] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 02:31:46.104] [7614] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 18.815978 milliseconds
+[2026-01-08 02:31:46.104] [7614] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 19.497558 milliseconds
+[2026-01-08 02:31:46.105] [7614] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 02:31:46.106] [7614] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 02:31:46.106] [7614] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.218723 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 02:31:46.106] [7614] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.235781 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 02:31:46.110] [7614] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 02:31:46.116] [7614] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 02:31:46.116] [7614] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 02:31:46.116] [7614] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 02:31:46.116] [7614] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 02:31:46.116] [7614] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 02:31:46.122] [7614] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 02:31:46.122] [7614] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 02:31:46.122] [7614] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 02:31:51.122] [7634] [HailoRT] [info] [vdevice_native_stream.cpp:142] [write_impl] Failed write to stream mars_landmark/input_layer1 (device: 0001:01:00.0) with status=HAILO_STREAM_ABORT(63)
+[2026-01-08 02:31:51.122] [7634] [HailoRT] [info] [edge_elements.cpp:87] [run_push] Failed to send on input stream InputStream(index=3, name=mars_landmark/input_layer1) because stream was aborted
+[2026-01-08 02:31:51.122] [7634] [HailoRT] [info] [vstream.cpp:778] [write] Sending to VStream was aborted!
+[2026-01-08 02:31:51.123] [7630] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0001:01:00.0)
+[2026-01-08 02:31:51.123] [7630] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2026-01-08 02:31:51.123] [7630] [HailoRT] [info] [queue_elements.cpp:867] [run_in_thread] run_pull of UserBuffQEl0mars_landmark/softmax1 was aborted!
+[2026-01-08 02:31:51.123] [7633] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 02:31:51.123] [7633] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2026-01-08 02:31:51.124] [7630] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 02:31:51.124] [7614] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 02:31:51.124] [7614] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.00389 ms
+[2026-01-08 02:31:51.124] [7614] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.012113 ms
+[2026-01-08 02:52:08.361] [8821] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 02:52:08.372] [8821] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 02:52:08.374] [8821] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 02:52:08.374] [8821] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 02:52:08.374] [8821] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 02:52:08.376] [8821] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 02:52:08.384] [8821] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 02:52:08.385] [8821] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 02:52:08.385] [8821] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 02:52:08.397] [8821] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 21.125896 milliseconds
+[2026-01-08 02:52:08.397] [8821] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 22.9649 milliseconds
+[2026-01-08 02:52:08.398] [8821] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 02:52:08.399] [8821] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 02:52:08.400] [8821] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.202776 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 02:52:08.400] [8821] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.216037 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 02:52:08.403] [8821] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 02:52:08.404] [8821] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 02:52:08.405] [8821] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 02:52:08.405] [8821] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 02:52:08.405] [8821] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 02:52:08.405] [8821] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 02:52:08.405] [8821] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 02:52:08.405] [8821] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 02:52:08.405] [8821] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 02:52:13.405] [8837] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0001:01:00.0)
+[2026-01-08 02:52:13.405] [8837] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2026-01-08 02:52:13.405] [8837] [HailoRT] [info] [queue_elements.cpp:867] [run_in_thread] run_pull of UserBuffQEl0mars_landmark/softmax1 was aborted!
+[2026-01-08 02:52:13.405] [8841] [HailoRT] [info] [vdevice_native_stream.cpp:142] [write_impl] Failed write to stream mars_landmark/input_layer1 (device: 0001:01:00.0) with status=HAILO_STREAM_ABORT(63)
+[2026-01-08 02:52:13.405] [8840] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 02:52:13.405] [8840] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2026-01-08 02:52:13.405] [8841] [HailoRT] [info] [edge_elements.cpp:87] [run_push] Failed to send on input stream InputStream(index=3, name=mars_landmark/input_layer1) because stream was aborted
+[2026-01-08 02:52:13.405] [8841] [HailoRT] [info] [vstream.cpp:778] [write] Sending to VStream was aborted!
+[2026-01-08 02:52:13.406] [8837] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 02:52:13.406] [8821] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 02:52:13.406] [8821] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.003704 ms
+[2026-01-08 02:52:13.406] [8821] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.011706 ms
+[2026-01-08 02:55:13.975] [9292] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 02:55:13.987] [9292] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 02:55:13.989] [9292] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 02:55:13.989] [9292] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 02:55:13.993] [9292] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 02:55:13.994] [9292] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 02:55:13.999] [9292] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 02:55:13.999] [9292] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 02:55:13.999] [9292] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 02:55:14.009] [9292] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 15.691234 milliseconds
+[2026-01-08 02:55:14.009] [9292] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 16.037738 milliseconds
+[2026-01-08 02:57:10.913] [9401] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 02:57:10.925] [9401] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 02:57:10.927] [9401] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 02:57:10.927] [9401] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 02:57:10.932] [9401] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 02:57:10.932] [9401] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 02:57:10.939] [9401] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 02:57:10.939] [9401] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 02:57:10.939] [9401] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 02:57:10.947] [9401] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 15.279326 milliseconds
+[2026-01-08 02:57:10.947] [9401] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 15.673572 milliseconds
+[2026-01-08 02:57:10.948] [9401] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.198066 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 02:57:10.948] [9401] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.20888 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 02:57:10.948] [9401] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.437006 ms
+[2026-01-08 02:57:10.948] [9401] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.44586 ms
+[2026-01-08 02:57:39.743] [9496] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 02:57:39.754] [9496] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 02:57:39.755] [9496] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 02:57:39.756] [9496] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 02:58:26.489] [9597] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 02:58:26.501] [9597] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 02:58:26.503] [9597] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 02:58:26.503] [9597] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 02:58:26.508] [9597] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 02:58:26.508] [9597] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 02:58:26.513] [9597] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 02:58:26.513] [9597] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 02:58:26.513] [9597] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 02:58:26.522] [9597] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 13.940176 milliseconds
+[2026-01-08 02:58:26.522] [9597] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 14.2586 milliseconds
+[2026-01-08 02:58:26.522] [9597] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 02:58:26.522] [9597] [HailoRT] [info] [queue_elements.cpp:284] [create] Created (PushQEl3mars_landmark/input_layer1 | timeout: 10s)
+[2026-01-08 02:58:26.522] [9597] [HailoRT] [info] [filter_elements.cpp:101] [create] Created (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 1)
+[2026-01-08 02:58:26.522] [9597] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 02:58:26.522] [9597] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 1) >> (PushQEl3mars_landmark/input_layer1 | timeout: 10s) >> (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 02:58:26.522] [9597] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 02:58:26.522] [9597] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0mars_landmark/softmax1)
+[2026-01-08 02:58:26.522] [9597] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-01-08 02:58:26.522] [9597] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 02:58:26.522] [9597] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 02:58:26.522] [9597] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (PullQEl_hw_read0mars_landmark/softmax1) >> (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 02:58:26.522] [9597] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 02:58:26.522] [9597] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 02:58:26.523] [9610] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 02:58:26.523] [9609] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0mars_landmark/softmax1!
+[2026-01-08 02:58:26.523] [9609] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 02:58:26.523] [9597] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 02:58:26.523] [9610] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 02:58:26.523] [9597] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 02:58:26.523] [9608] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PushQEl3mars_landmark/input_layer1 is not running anymore, exiting..
+[2026-01-08 02:58:26.523] [9597] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PushQEl3mars_landmark/input_layer1 has 0 frames in his Queue on destruction
+[2026-01-08 02:59:04.778] [9664] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 02:59:04.789] [9664] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 02:59:04.791] [9664] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 02:59:04.791] [9664] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 02:59:04.796] [9664] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 02:59:04.796] [9664] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 02:59:04.801] [9664] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 02:59:04.801] [9664] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 02:59:04.801] [9664] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 02:59:04.810] [9664] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 13.674272 milliseconds
+[2026-01-08 02:59:04.810] [9664] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 14.045261 milliseconds
+[2026-01-08 02:59:04.810] [9664] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 02:59:04.810] [9664] [HailoRT] [info] [queue_elements.cpp:284] [create] Created (PushQEl3mars_landmark/input_layer1 | timeout: 10s)
+[2026-01-08 02:59:04.810] [9664] [HailoRT] [info] [filter_elements.cpp:101] [create] Created (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 1)
+[2026-01-08 02:59:04.810] [9664] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 02:59:04.810] [9664] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 1) >> (PushQEl3mars_landmark/input_layer1 | timeout: 10s) >> (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 02:59:04.810] [9664] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 02:59:04.810] [9664] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0mars_landmark/softmax1)
+[2026-01-08 02:59:04.810] [9664] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-01-08 02:59:04.810] [9664] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 02:59:04.810] [9664] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 02:59:04.810] [9664] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (PullQEl_hw_read0mars_landmark/softmax1) >> (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 02:59:04.810] [9664] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 02:59:04.810] [9664] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 02:59:04.811] [9664] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.215862 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 02:59:04.811] [9664] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.226772 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 02:59:04.811] [9664] [HailoRT] [error] [inference_pipeline.cpp:274] [verify_memory_view_size] CHECK failed - Memory size of vstream mars_landmark/input_layer1 does not match the frame count! (Expected 602112, got 0)
+[2026-01-08 02:59:04.811] [9664] [HailoRT] [error] [inference_pipeline.cpp:201] [infer] CHECK_SUCCESS failed with status=HAILO_INVALID_ARGUMENT(2)
+[2026-01-08 02:59:04.811] [9676] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-01-08 02:59:04.812] [9664] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.484014 ms
+[2026-01-08 02:59:04.812] [9664] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.496942 ms
+[2026-01-08 02:59:04.812] [9676] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0mars_landmark/softmax1!
+[2026-01-08 02:59:04.812] [9677] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 02:59:04.812] [9676] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 02:59:04.812] [9664] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 02:59:04.812] [9677] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 02:59:04.812] [9664] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 02:59:04.812] [9675] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PushQEl3mars_landmark/input_layer1 is not running anymore, exiting..
+[2026-01-08 02:59:04.812] [9664] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PushQEl3mars_landmark/input_layer1 has 0 frames in his Queue on destruction
+[2026-01-08 02:59:35.932] [9763] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 02:59:35.944] [9763] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 02:59:35.945] [9763] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 02:59:35.945] [9763] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 02:59:35.950] [9763] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 02:59:35.951] [9763] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 02:59:35.955] [9763] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 02:59:35.956] [9763] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 02:59:35.956] [9763] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 02:59:35.965] [9763] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 14.549781 milliseconds
+[2026-01-08 02:59:35.965] [9763] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 14.875736 milliseconds
+[2026-01-08 02:59:35.965] [9763] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 02:59:35.965] [9763] [HailoRT] [info] [queue_elements.cpp:284] [create] Created (PushQEl3mars_landmark/input_layer1 | timeout: 10s)
+[2026-01-08 02:59:35.965] [9763] [HailoRT] [info] [filter_elements.cpp:101] [create] Created (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 1)
+[2026-01-08 02:59:35.965] [9763] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 02:59:35.966] [9763] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 1) >> (PushQEl3mars_landmark/input_layer1 | timeout: 10s) >> (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 02:59:35.966] [9763] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 02:59:35.966] [9763] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0mars_landmark/softmax1)
+[2026-01-08 02:59:35.966] [9763] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-01-08 02:59:35.966] [9763] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 02:59:35.966] [9763] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 02:59:35.966] [9763] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (PullQEl_hw_read0mars_landmark/softmax1) >> (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 02:59:35.966] [9763] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 02:59:35.966] [9763] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 02:59:35.966] [9763] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.2206 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 02:59:35.966] [9763] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.231676 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 02:59:35.966] [9763] [HailoRT] [error] [inference_pipeline.cpp:274] [verify_memory_view_size] CHECK failed - Memory size of vstream mars_landmark/input_layer1 does not match the frame count! (Expected 602112, got 0)
+[2026-01-08 02:59:35.967] [9763] [HailoRT] [error] [inference_pipeline.cpp:201] [infer] CHECK_SUCCESS failed with status=HAILO_INVALID_ARGUMENT(2)
+[2026-01-08 02:59:35.967] [9763] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.456462 ms
+[2026-01-08 02:59:35.967] [9763] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.473929 ms
+[2026-01-08 02:59:35.967] [9777] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-01-08 02:59:35.968] [9778] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 02:59:35.968] [9777] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0mars_landmark/softmax1!
+[2026-01-08 02:59:35.968] [9777] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 02:59:35.968] [9763] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 02:59:35.969] [9778] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 02:59:35.969] [9763] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 02:59:35.969] [9776] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PushQEl3mars_landmark/input_layer1 is not running anymore, exiting..
+[2026-01-08 02:59:35.969] [9763] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PushQEl3mars_landmark/input_layer1 has 0 frames in his Queue on destruction
+[2026-01-08 03:00:36.444] [9852] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:00:36.457] [9852] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:00:36.458] [9852] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:00:36.458] [9852] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:00:36.463] [9852] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:00:36.464] [9852] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:00:36.468] [9852] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:00:36.468] [9852] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:00:36.468] [9852] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:00:36.481] [9852] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 17.559774 milliseconds
+[2026-01-08 03:00:36.481] [9852] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 17.931831 milliseconds
+[2026-01-08 03:00:36.481] [9852] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 03:00:36.482] [9852] [HailoRT] [info] [queue_elements.cpp:284] [create] Created (PushQEl3mars_landmark/input_layer1 | timeout: 10s)
+[2026-01-08 03:00:36.482] [9852] [HailoRT] [info] [filter_elements.cpp:101] [create] Created (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 1)
+[2026-01-08 03:00:36.482] [9852] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 03:00:36.482] [9852] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 1) >> (PushQEl3mars_landmark/input_layer1 | timeout: 10s) >> (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 03:00:36.482] [9852] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 03:00:36.482] [9852] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0mars_landmark/softmax1)
+[2026-01-08 03:00:36.482] [9852] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-01-08 03:00:36.482] [9852] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:00:36.482] [9852] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 03:00:36.482] [9852] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (PullQEl_hw_read0mars_landmark/softmax1) >> (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:00:36.482] [9852] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:00:36.482] [9852] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:00:36.483] [9852] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.214578 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:00:36.483] [9852] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.226167 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:00:36.483] [9852] [HailoRT] [error] [inference_pipeline.cpp:274] [verify_memory_view_size] CHECK failed - Memory size of vstream mars_landmark/input_layer1 does not match the frame count! (Expected 602112, got 0)
+[2026-01-08 03:00:36.483] [9852] [HailoRT] [error] [inference_pipeline.cpp:201] [infer] CHECK_SUCCESS failed with status=HAILO_INVALID_ARGUMENT(2)
+[2026-01-08 03:00:36.484] [9864] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-01-08 03:00:36.484] [9852] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.646176 ms
+[2026-01-08 03:00:36.484] [9852] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.666005 ms
+[2026-01-08 03:00:36.484] [9865] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 03:00:36.484] [9864] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0mars_landmark/softmax1!
+[2026-01-08 03:00:36.484] [9864] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:00:36.484] [9852] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:00:36.485] [9865] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:00:36.485] [9852] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:00:36.485] [9863] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PushQEl3mars_landmark/input_layer1 is not running anymore, exiting..
+[2026-01-08 03:00:36.485] [9852] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PushQEl3mars_landmark/input_layer1 has 0 frames in his Queue on destruction
+[2026-01-08 03:01:24.410] [9941] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:01:24.421] [9941] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:01:24.423] [9941] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:01:24.423] [9941] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:01:24.428] [9941] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:01:24.428] [9941] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:01:24.433] [9941] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:01:24.434] [9941] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:01:24.434] [9941] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:01:24.442] [9941] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 14.024415 milliseconds
+[2026-01-08 03:01:24.442] [9941] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 14.604279 milliseconds
+[2026-01-08 03:01:24.442] [9941] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 03:01:24.442] [9941] [HailoRT] [info] [queue_elements.cpp:284] [create] Created (PushQEl3mars_landmark/input_layer1 | timeout: 10s)
+[2026-01-08 03:01:24.443] [9941] [HailoRT] [info] [filter_elements.cpp:101] [create] Created (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 1)
+[2026-01-08 03:01:24.443] [9941] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 03:01:24.443] [9941] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 1) >> (PushQEl3mars_landmark/input_layer1 | timeout: 10s) >> (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 03:01:24.443] [9941] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 03:01:24.443] [9941] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0mars_landmark/softmax1)
+[2026-01-08 03:01:24.443] [9941] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-01-08 03:01:24.443] [9941] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:01:24.443] [9941] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 03:01:24.443] [9941] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (PullQEl_hw_read0mars_landmark/softmax1) >> (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:01:24.443] [9941] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:01:24.443] [9941] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:01:24.443] [9941] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.262284 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:01:24.443] [9941] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.275247 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:01:24.443] [9941] [HailoRT] [error] [inference_pipeline.cpp:274] [verify_memory_view_size] CHECK failed - Memory size of vstream mars_landmark/input_layer1 does not match the frame count! (Expected 602112, got 0)
+[2026-01-08 03:01:24.444] [9941] [HailoRT] [error] [inference_pipeline.cpp:201] [infer] CHECK_SUCCESS failed with status=HAILO_INVALID_ARGUMENT(2)
+[2026-01-08 03:01:24.444] [9953] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-01-08 03:01:24.445] [9941] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 1.06412 ms
+[2026-01-08 03:01:24.445] [9941] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 1.093692 ms
+[2026-01-08 03:01:24.445] [9953] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0mars_landmark/softmax1!
+[2026-01-08 03:01:24.445] [9954] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 03:01:24.445] [9953] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:01:24.445] [9941] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:01:24.445] [9954] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:01:24.445] [9941] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:01:24.446] [9952] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PushQEl3mars_landmark/input_layer1 is not running anymore, exiting..
+[2026-01-08 03:01:24.446] [9941] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PushQEl3mars_landmark/input_layer1 has 0 frames in his Queue on destruction
+[2026-01-08 03:02:20.182] [10044] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:02:20.193] [10044] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:02:20.195] [10044] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:02:20.195] [10044] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:02:20.200] [10044] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:02:20.200] [10044] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:02:20.205] [10044] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:02:20.205] [10044] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:02:20.205] [10044] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:02:20.215] [10044] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 15.16323 milliseconds
+[2026-01-08 03:02:20.215] [10044] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 15.526566 milliseconds
+[2026-01-08 03:02:20.215] [10044] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 03:02:20.215] [10044] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 03:02:20.215] [10044] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 03:02:20.215] [10044] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 03:02:20.216] [10044] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:02:20.216] [10044] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 03:02:20.216] [10044] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:02:20.216] [10044] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:02:20.216] [10044] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:02:20.216] [10044] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.218162 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:02:20.216] [10044] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.232606 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:02:20.217] [10044] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.425062 ms
+[2026-01-08 03:02:20.217] [10044] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.43334 ms
+[2026-01-08 03:02:20.217] [10058] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 03:02:20.217] [10058] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:02:20.217] [10044] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:03:17.738] [10134] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:03:17.750] [10134] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:03:17.751] [10134] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:03:17.751] [10134] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:03:17.758] [10134] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:03:17.758] [10134] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:03:17.763] [10134] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:03:17.763] [10134] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:03:17.763] [10134] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:03:17.772] [10134] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 14.128373 milliseconds
+[2026-01-08 03:03:17.772] [10134] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 14.649149 milliseconds
+[2026-01-08 03:03:17.772] [10134] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 03:03:17.772] [10134] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 03:03:17.772] [10134] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 03:03:17.772] [10134] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 03:03:17.772] [10134] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:03:17.772] [10134] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 03:03:17.772] [10134] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:03:17.772] [10134] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:03:17.772] [10134] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:03:17.773] [10134] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.206706 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:03:17.773] [10134] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.218023 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:03:17.774] [10134] [HailoRT] [error] [inference_pipeline.cpp:274] [verify_memory_view_size] CHECK failed - Memory size of vstream mars_landmark/input_layer1 does not match the frame count! (Expected 150528, got 0)
+[2026-01-08 03:03:17.774] [10134] [HailoRT] [error] [inference_pipeline.cpp:201] [infer] CHECK_SUCCESS failed with status=HAILO_INVALID_ARGUMENT(2)
+[2026-01-08 03:03:17.775] [10134] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.405986 ms
+[2026-01-08 03:03:17.775] [10134] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.423543 ms
+[2026-01-08 03:03:17.775] [10145] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 03:03:17.775] [10145] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:03:17.775] [10134] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:04:07.808] [10222] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:04:07.820] [10222] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:04:07.821] [10222] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:04:07.821] [10222] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:04:07.827] [10222] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:04:07.827] [10222] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:04:07.837] [10222] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:04:07.838] [10222] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:04:07.838] [10222] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:04:07.846] [10222] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 18.637527 milliseconds
+[2026-01-08 03:04:07.846] [10222] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 19.046686 milliseconds
+[2026-01-08 03:04:07.846] [10222] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 03:04:07.846] [10222] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 03:04:07.846] [10222] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 03:04:07.846] [10222] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 03:04:07.846] [10222] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0mars_landmark/softmax1)
+[2026-01-08 03:04:07.846] [10222] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-01-08 03:04:07.846] [10222] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:04:07.846] [10222] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 03:04:07.846] [10222] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (PullQEl_hw_read0mars_landmark/softmax1) >> (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:04:07.846] [10222] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:04:07.847] [10222] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:04:07.847] [10222] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.211525 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:04:07.847] [10222] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.22073 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:04:07.847] [10233] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-01-08 03:04:07.847] [10222] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.45022 ms
+[2026-01-08 03:04:07.847] [10222] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.458869 ms
+[2026-01-08 03:04:07.847] [10233] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0mars_landmark/softmax1!
+[2026-01-08 03:04:07.847] [10234] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 03:04:07.847] [10233] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:04:07.848] [10222] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:04:07.849] [10234] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:04:07.849] [10222] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:04:21.959] [10304] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:04:21.971] [10304] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:04:21.973] [10304] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:04:21.973] [10304] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:04:21.978] [10304] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:04:21.978] [10304] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:04:21.983] [10304] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:04:21.983] [10304] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:04:21.983] [10304] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:04:21.991] [10304] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 13.561924 milliseconds
+[2026-01-08 03:04:21.991] [10304] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 13.891945 milliseconds
+[2026-01-08 03:04:21.992] [10304] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 03:04:21.992] [10304] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 03:04:21.992] [10304] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 03:04:21.992] [10304] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 03:04:21.992] [10304] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0mars_landmark/softmax1)
+[2026-01-08 03:04:21.992] [10304] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-01-08 03:04:21.992] [10304] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:04:21.992] [10304] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 03:04:21.992] [10304] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (PullQEl_hw_read0mars_landmark/softmax1) >> (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:04:21.992] [10304] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:04:21.992] [10304] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:04:21.992] [10304] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.198209 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:04:21.992] [10304] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.207673 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:04:21.992] [10304] [HailoRT] [error] [inference_pipeline.cpp:274] [verify_memory_view_size] CHECK failed - Memory size of vstream mars_landmark/input_layer1 does not match the frame count! (Expected 150528, got 0)
+[2026-01-08 03:04:21.992] [10304] [HailoRT] [error] [inference_pipeline.cpp:201] [infer] CHECK_SUCCESS failed with status=HAILO_INVALID_ARGUMENT(2)
+[2026-01-08 03:04:21.993] [10315] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-01-08 03:04:21.993] [10304] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.511377 ms
+[2026-01-08 03:04:21.993] [10304] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.524916 ms
+[2026-01-08 03:04:21.993] [10316] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 03:04:21.993] [10315] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0mars_landmark/softmax1!
+[2026-01-08 03:04:21.993] [10315] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:04:21.993] [10304] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:04:21.994] [10316] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:04:21.994] [10304] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:06:26.076] [10574] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:06:26.088] [10574] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:06:26.090] [10574] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:06:26.090] [10574] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:06:26.096] [10574] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:06:26.096] [10574] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:06:26.106] [10574] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:06:26.106] [10574] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:06:26.106] [10574] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:06:26.115] [10574] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 19.226836 milliseconds
+[2026-01-08 03:06:26.115] [10574] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 19.969373 milliseconds
+[2026-01-08 03:06:26.115] [10574] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 03:06:26.115] [10574] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 03:06:26.115] [10574] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 03:06:26.115] [10574] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 03:06:26.116] [10574] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0mars_landmark/softmax1)
+[2026-01-08 03:06:26.116] [10574] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-01-08 03:06:26.116] [10574] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:06:26.116] [10574] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 03:06:26.116] [10574] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (PullQEl_hw_read0mars_landmark/softmax1) >> (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:06:26.116] [10574] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:06:26.116] [10574] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:06:26.117] [10574] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.235051 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:06:26.117] [10574] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.254179 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:06:26.123] [10585] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-01-08 03:06:26.123] [10574] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.488119 ms
+[2026-01-08 03:06:26.123] [10574] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.507079 ms
+[2026-01-08 03:06:26.123] [10586] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 03:06:26.124] [10585] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0mars_landmark/softmax1!
+[2026-01-08 03:06:26.124] [10585] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:06:26.124] [10574] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:06:26.124] [10586] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:06:26.124] [10574] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:13:06.192] [10841] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:13:06.205] [10841] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:13:06.206] [10841] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:13:06.206] [10841] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:13:06.213] [10841] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:13:06.213] [10841] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:13:06.218] [10841] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:13:06.218] [10841] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:13:06.218] [10841] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:13:06.237] [10841] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 23.839659 milliseconds
+[2026-01-08 03:13:06.237] [10841] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 24.211357 milliseconds
+[2026-01-08 03:13:06.237] [10841] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 03:13:06.237] [10841] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 03:13:06.237] [10841] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 03:13:06.237] [10841] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 03:13:06.237] [10841] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0mars_landmark/softmax1)
+[2026-01-08 03:13:06.238] [10841] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-01-08 03:13:06.238] [10841] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:13:06.238] [10841] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 03:13:06.238] [10841] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (PullQEl_hw_read0mars_landmark/softmax1) >> (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:13:06.238] [10841] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:13:06.238] [10841] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:13:06.238] [10841] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.211295 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:13:06.238] [10841] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.220703 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:13:13.688] [10867] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-01-08 03:13:13.688] [10841] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.409275 ms
+[2026-01-08 03:13:13.688] [10841] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.423831 ms
+[2026-01-08 03:13:13.688] [10867] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0mars_landmark/softmax1!
+[2026-01-08 03:13:13.688] [10868] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 03:13:13.689] [10867] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:13:13.689] [10841] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:13:13.689] [10868] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:13:13.689] [10841] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:16:04.377] [14076] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:16:04.389] [14076] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:16:04.390] [14076] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:16:04.390] [14076] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:16:04.395] [14076] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:16:04.395] [14076] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:16:04.400] [14076] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:16:04.400] [14076] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:16:04.400] [14076] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:16:04.410] [14076] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 14.977044 milliseconds
+[2026-01-08 03:16:04.410] [14076] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 15.296051 milliseconds
+[2026-01-08 03:16:04.410] [14076] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 03:16:04.410] [14076] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 03:16:04.410] [14076] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 03:16:04.410] [14076] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 03:16:04.411] [14076] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0mars_landmark/softmax1)
+[2026-01-08 03:16:04.411] [14076] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-01-08 03:16:04.411] [14076] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:16:04.411] [14076] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 03:16:04.411] [14076] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (PullQEl_hw_read0mars_landmark/softmax1) >> (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:16:04.411] [14076] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:16:04.411] [14076] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:16:04.411] [14076] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.192193 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:16:04.411] [14076] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.199618 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:16:04.427] [14100] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-01-08 03:16:04.427] [14076] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.399402 ms
+[2026-01-08 03:16:04.427] [14076] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.412419 ms
+[2026-01-08 03:16:04.427] [14100] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0mars_landmark/softmax1!
+[2026-01-08 03:16:04.427] [14101] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 03:16:04.427] [14100] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:16:04.427] [14076] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:16:04.427] [14101] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:16:04.427] [14076] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:16:41.727] [14186] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:16:41.740] [14186] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:16:41.741] [14186] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:16:41.741] [14186] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:16:41.746] [14186] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:16:41.746] [14186] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:16:41.751] [14186] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:16:41.751] [14186] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:16:41.751] [14186] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:16:41.762] [14186] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 15.698737 milliseconds
+[2026-01-08 03:16:41.762] [14186] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 16.068366 milliseconds
+[2026-01-08 03:16:41.762] [14186] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 03:16:41.762] [14186] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 03:16:41.762] [14186] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 03:16:41.762] [14186] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 03:16:41.762] [14186] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0mars_landmark/softmax1)
+[2026-01-08 03:16:41.762] [14186] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-01-08 03:16:41.762] [14186] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:16:41.762] [14186] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 03:16:41.762] [14186] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (PullQEl_hw_read0mars_landmark/softmax1) >> (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:16:41.762] [14186] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:16:41.762] [14186] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:16:41.763] [14186] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.204719 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:16:41.763] [14186] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.214885 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:16:48.659] [14209] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-01-08 03:16:48.659] [14186] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.396628 ms
+[2026-01-08 03:16:48.659] [14186] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.413719 ms
+[2026-01-08 03:16:48.659] [14209] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0mars_landmark/softmax1!
+[2026-01-08 03:16:48.659] [14210] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 03:16:48.659] [14209] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:16:48.659] [14186] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:16:48.659] [14210] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:16:48.659] [14186] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:17:56.209] [17355] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:17:56.221] [17355] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:17:56.223] [17355] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:17:56.223] [17355] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:17:56.228] [17355] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:17:56.228] [17355] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:17:56.233] [17355] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:17:56.233] [17355] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:17:56.233] [17355] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:17:56.242] [17355] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 13.939796 milliseconds
+[2026-01-08 03:17:56.242] [17355] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 14.291319 milliseconds
+[2026-01-08 03:17:56.242] [17355] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 03:17:56.242] [17355] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 03:17:56.242] [17355] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 03:17:56.242] [17355] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 03:17:56.242] [17355] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0mars_landmark/softmax1)
+[2026-01-08 03:17:56.242] [17355] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-01-08 03:17:56.242] [17355] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:17:56.242] [17355] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 03:17:56.242] [17355] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (PullQEl_hw_read0mars_landmark/softmax1) >> (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:17:56.242] [17355] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:17:56.242] [17355] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:17:56.243] [17355] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.192585 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:17:56.243] [17355] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.20027 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:18:03.229] [17378] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-01-08 03:18:03.230] [17355] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.442798 ms
+[2026-01-08 03:18:03.230] [17355] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.460446 ms
+[2026-01-08 03:18:03.230] [17379] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 03:18:03.230] [17378] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0mars_landmark/softmax1!
+[2026-01-08 03:18:03.230] [17378] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:18:03.230] [17355] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:18:03.230] [17379] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:18:03.230] [17355] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:19:03.267] [20533] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:19:03.280] [20533] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:19:03.281] [20533] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:19:03.281] [20533] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:19:03.286] [20533] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:19:03.286] [20533] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:19:03.291] [20533] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:19:03.291] [20533] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:19:03.291] [20533] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:19:03.299] [20533] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 13.692431 milliseconds
+[2026-01-08 03:19:03.300] [20533] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 14.021928 milliseconds
+[2026-01-08 03:19:03.300] [20533] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 03:19:03.300] [20533] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 03:19:03.300] [20533] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 03:19:03.300] [20533] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 03:19:03.300] [20533] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0mars_landmark/softmax1)
+[2026-01-08 03:19:03.300] [20533] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-01-08 03:19:03.300] [20533] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:19:03.300] [20533] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 03:19:03.300] [20533] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (PullQEl_hw_read0mars_landmark/softmax1) >> (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:19:03.300] [20533] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:19:03.300] [20533] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:19:03.300] [20533] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.191036 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:19:03.300] [20533] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.198831 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:19:10.223] [20559] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-01-08 03:19:10.224] [20533] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.407479 ms
+[2026-01-08 03:19:10.224] [20533] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.422441 ms
+[2026-01-08 03:19:10.224] [20559] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0mars_landmark/softmax1!
+[2026-01-08 03:19:10.224] [20560] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 03:19:10.224] [20559] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:19:10.224] [20533] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:19:10.224] [20560] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:19:10.224] [20533] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:21:56.141] [23799] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:21:56.153] [23799] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:21:56.155] [23799] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:21:56.155] [23799] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:21:56.160] [23799] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:21:56.160] [23799] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:21:56.165] [23799] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:21:56.165] [23799] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:21:56.165] [23799] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:21:56.174] [23799] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 14.24938 milliseconds
+[2026-01-08 03:21:56.174] [23799] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 14.593778 milliseconds
+[2026-01-08 03:21:56.174] [23799] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 03:21:56.174] [23799] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 03:21:56.174] [23799] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 03:21:56.174] [23799] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 03:21:56.175] [23799] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0mars_landmark/softmax1)
+[2026-01-08 03:21:56.175] [23799] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-01-08 03:21:56.175] [23799] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:21:56.175] [23799] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 03:21:56.175] [23799] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (PullQEl_hw_read0mars_landmark/softmax1) >> (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:21:56.175] [23799] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:21:56.175] [23799] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:21:56.175] [23799] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.202357 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:21:56.175] [23799] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.209357 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:22:03.092] [23822] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-01-08 03:22:03.092] [23799] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.409621 ms
+[2026-01-08 03:22:03.092] [23799] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.419752 ms
+[2026-01-08 03:22:03.092] [23823] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 03:22:03.092] [23822] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0mars_landmark/softmax1!
+[2026-01-08 03:22:03.092] [23822] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:22:03.092] [23799] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:22:03.092] [23823] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:22:03.092] [23799] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:24:21.468] [27033] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:24:21.480] [27033] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:24:21.481] [27033] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:24:21.481] [27033] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:24:21.486] [27033] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:24:21.487] [27033] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:24:21.492] [27033] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:24:21.492] [27033] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:24:21.492] [27033] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:24:21.500] [27033] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 13.60751 milliseconds
+[2026-01-08 03:24:21.500] [27033] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 13.930013 milliseconds
+[2026-01-08 03:24:21.500] [27033] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 03:24:21.501] [27033] [HailoRT] [info] [queue_elements.cpp:284] [create] Created (PushQEl3mars_landmark/input_layer1 | timeout: 10s)
+[2026-01-08 03:24:21.501] [27033] [HailoRT] [info] [filter_elements.cpp:101] [create] Created (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 1)
+[2026-01-08 03:24:21.501] [27033] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 03:24:21.501] [27033] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 1) >> (PushQEl3mars_landmark/input_layer1 | timeout: 10s) >> (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 03:24:21.501] [27033] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 03:24:21.501] [27033] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0mars_landmark/softmax1)
+[2026-01-08 03:24:21.501] [27033] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-01-08 03:24:21.501] [27033] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:24:21.501] [27033] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 03:24:21.501] [27033] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (PullQEl_hw_read0mars_landmark/softmax1) >> (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:24:21.501] [27033] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:24:21.501] [27033] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:24:21.501] [27033] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.194432 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:24:21.501] [27033] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.201247 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:24:28.964] [27057] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-01-08 03:24:28.965] [27033] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.413272 ms
+[2026-01-08 03:24:28.965] [27033] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.423977 ms
+[2026-01-08 03:24:28.965] [27058] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 03:24:28.965] [27057] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0mars_landmark/softmax1!
+[2026-01-08 03:24:28.965] [27057] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:24:28.965] [27033] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:24:28.965] [27058] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:24:28.965] [27033] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:24:28.965] [27056] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PushQEl3mars_landmark/input_layer1 is not running anymore, exiting..
+[2026-01-08 03:24:28.965] [27033] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PushQEl3mars_landmark/input_layer1 has 0 frames in his Queue on destruction
+[2026-01-08 03:26:44.819] [30248] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:26:44.832] [30248] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:26:44.833] [30248] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:26:44.833] [30248] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:26:44.838] [30248] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:26:44.838] [30248] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:26:44.843] [30248] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:26:44.843] [30248] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:26:44.843] [30248] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:26:44.852] [30248] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 13.762265 milliseconds
+[2026-01-08 03:26:44.852] [30248] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 14.085795 milliseconds
+[2026-01-08 03:26:44.852] [30248] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 03:26:44.852] [30248] [HailoRT] [info] [queue_elements.cpp:284] [create] Created (PushQEl3mars_landmark/input_layer1 | timeout: 10s)
+[2026-01-08 03:26:44.852] [30248] [HailoRT] [info] [filter_elements.cpp:101] [create] Created (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 1)
+[2026-01-08 03:26:44.852] [30248] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 03:26:44.852] [30248] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 1) >> (PushQEl3mars_landmark/input_layer1 | timeout: 10s) >> (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 03:26:44.852] [30248] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 03:26:44.852] [30248] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0mars_landmark/softmax1)
+[2026-01-08 03:26:44.852] [30248] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-01-08 03:26:44.852] [30248] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:26:44.852] [30248] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 03:26:44.852] [30248] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (PullQEl_hw_read0mars_landmark/softmax1) >> (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:26:44.852] [30248] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:26:44.852] [30248] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:26:44.853] [30248] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.194758 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:26:44.853] [30248] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.203852 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:26:52.376] [30276] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-01-08 03:26:52.377] [30248] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.391683 ms
+[2026-01-08 03:26:52.377] [30248] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.407037 ms
+[2026-01-08 03:26:52.377] [30276] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0mars_landmark/softmax1!
+[2026-01-08 03:26:52.377] [30277] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 03:26:52.377] [30276] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:26:52.377] [30248] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:26:52.377] [30277] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:26:52.377] [30248] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:26:52.377] [30275] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PushQEl3mars_landmark/input_layer1 is not running anymore, exiting..
+[2026-01-08 03:26:52.377] [30248] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PushQEl3mars_landmark/input_layer1 has 0 frames in his Queue on destruction
+[2026-01-08 03:35:16.812] [33699] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:35:16.824] [33699] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:35:16.826] [33699] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:35:16.826] [33699] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:35:16.833] [33699] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:35:16.834] [33699] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:35:16.849] [33699] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:35:16.850] [33699] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:35:16.850] [33699] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:35:16.862] [33699] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 28.491201 milliseconds
+[2026-01-08 03:35:16.862] [33699] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 28.950838 milliseconds
+[2026-01-08 03:35:16.862] [33699] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 03:35:16.863] [33699] [HailoRT] [info] [queue_elements.cpp:284] [create] Created (PushQEl3mars_landmark/input_layer1 | timeout: 10s)
+[2026-01-08 03:35:16.863] [33699] [HailoRT] [info] [filter_elements.cpp:101] [create] Created (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 255)
+[2026-01-08 03:35:16.863] [33699] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 03:35:16.863] [33699] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 255) >> (PushQEl3mars_landmark/input_layer1 | timeout: 10s) >> (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 03:35:16.863] [33699] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 03:35:16.863] [33699] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0mars_landmark/softmax1)
+[2026-01-08 03:35:16.863] [33699] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-01-08 03:35:16.863] [33699] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:35:16.863] [33699] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 03:35:16.863] [33699] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (PullQEl_hw_read0mars_landmark/softmax1) >> (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:35:16.863] [33699] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:35:16.863] [33699] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 03:35:16.864] [33699] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.223772 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:35:16.864] [33699] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.234606 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:35:24.194] [33723] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-01-08 03:35:24.194] [33699] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.42432 ms
+[2026-01-08 03:35:24.194] [33699] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.434506 ms
+[2026-01-08 03:35:24.194] [33724] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 03:35:24.194] [33723] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0mars_landmark/softmax1!
+[2026-01-08 03:35:24.194] [33699] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:35:24.194] [33724] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:35:24.194] [33699] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:35:24.195] [33722] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PushQEl3mars_landmark/input_layer1 is not running anymore, exiting..
+[2026-01-08 03:35:24.195] [33699] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PushQEl3mars_landmark/input_layer1 has 0 frames in his Queue on destruction
+[2026-01-08 03:36:10.768] [36884] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:36:10.779] [36884] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:36:10.781] [36884] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:36:10.782] [36884] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:36:10.782] [36884] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:36:10.782] [36884] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:36:10.789] [36884] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:36:10.789] [36884] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:36:10.789] [36884] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:36:10.806] [36884] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 23.754041 milliseconds
+[2026-01-08 03:36:10.806] [36884] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 24.151563 milliseconds
+[2026-01-08 03:36:10.807] [36884] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:36:10.809] [36884] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:36:10.809] [36884] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.211882 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:36:10.809] [36884] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.227994 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:36:10.813] [36884] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:36:10.816] [36884] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:36:10.816] [36884] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 03:36:10.816] [36884] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 03:36:10.816] [36884] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 03:36:10.816] [36884] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 03:36:10.816] [36884] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:36:10.816] [36884] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 03:36:10.816] [36884] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:36:15.817] [36904] [HailoRT] [info] [vdevice_native_stream.cpp:142] [write_impl] Failed write to stream mars_landmark/input_layer1 (device: 0001:01:00.0) with status=HAILO_STREAM_ABORT(63)
+[2026-01-08 03:36:15.817] [36900] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0001:01:00.0)
+[2026-01-08 03:36:15.817] [36900] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2026-01-08 03:36:15.817] [36904] [HailoRT] [info] [edge_elements.cpp:87] [run_push] Failed to send on input stream InputStream(index=3, name=mars_landmark/input_layer1) because stream was aborted
+[2026-01-08 03:36:15.817] [36900] [HailoRT] [info] [queue_elements.cpp:867] [run_in_thread] run_pull of UserBuffQEl0mars_landmark/softmax1 was aborted!
+[2026-01-08 03:36:15.817] [36904] [HailoRT] [info] [vstream.cpp:778] [write] Sending to VStream was aborted!
+[2026-01-08 03:36:15.817] [36903] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 03:36:15.818] [36903] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2026-01-08 03:36:15.824] [36900] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:36:15.824] [36884] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:36:15.824] [36884] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.004889 ms
+[2026-01-08 03:36:15.824] [36884] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.014946 ms
+[2026-01-08 03:44:50.773] [37117] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:44:50.786] [37117] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:44:50.788] [37117] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:44:50.788] [37117] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:44:50.789] [37117] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:44:50.789] [37117] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:44:50.795] [37117] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:44:50.796] [37117] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:44:50.796] [37117] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:44:50.810] [37117] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 20.959457 milliseconds
+[2026-01-08 03:44:50.810] [37117] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 21.421575 milliseconds
+[2026-01-08 03:44:50.815] [37117] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:44:50.817] [37117] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:44:50.817] [37117] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.300073 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:44:50.817] [37117] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.333719 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:44:50.821] [37117] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:44:50.823] [37117] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:44:50.823] [37117] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 03:44:50.823] [37117] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 03:44:50.823] [37117] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 03:44:50.823] [37117] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 03:44:50.823] [37117] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:44:50.823] [37117] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 03:44:50.823] [37117] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:44:55.824] [37137] [HailoRT] [info] [vdevice_native_stream.cpp:142] [write_impl] Failed write to stream mars_landmark/input_layer1 (device: 0001:01:00.0) with status=HAILO_STREAM_ABORT(63)
+[2026-01-08 03:44:55.824] [37137] [HailoRT] [info] [edge_elements.cpp:87] [run_push] Failed to send on input stream InputStream(index=3, name=mars_landmark/input_layer1) because stream was aborted
+[2026-01-08 03:44:55.824] [37137] [HailoRT] [info] [vstream.cpp:778] [write] Sending to VStream was aborted!
+[2026-01-08 03:44:55.824] [37133] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0001:01:00.0)
+[2026-01-08 03:44:55.824] [37133] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2026-01-08 03:44:55.824] [37133] [HailoRT] [info] [queue_elements.cpp:867] [run_in_thread] run_pull of UserBuffQEl0mars_landmark/softmax1 was aborted!
+[2026-01-08 03:44:55.824] [37136] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 03:44:55.824] [37136] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2026-01-08 03:44:55.825] [37133] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:44:55.825] [37117] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:44:55.825] [37117] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.005555 ms
+[2026-01-08 03:44:55.825] [37117] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.017629 ms
+[2026-01-08 03:52:58.897] [37351] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:52:58.910] [37351] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:52:58.912] [37351] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:52:58.912] [37351] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:52:58.913] [37351] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:52:58.913] [37351] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:52:58.919] [37351] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:52:58.920] [37351] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:52:58.920] [37351] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:52:58.941] [37351] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 27.669773 milliseconds
+[2026-01-08 03:52:58.941] [37351] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 28.200574 milliseconds
+[2026-01-08 03:52:58.944] [37351] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:52:58.948] [37351] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:53:09.083] [37424] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 03:53:09.094] [37424] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 03:53:09.095] [37424] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:53:09.096] [37424] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 03:53:09.096] [37424] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:53:09.096] [37424] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 03:53:09.102] [37424] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 03:53:09.103] [37424] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 03:53:09.103] [37424] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 03:53:09.120] [37424] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 23.977957 milliseconds
+[2026-01-08 03:53:09.120] [37424] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 24.397684 milliseconds
+[2026-01-08 03:53:09.123] [37424] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:53:09.125] [37424] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:53:09.126] [37424] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.343299 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:53:09.126] [37424] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.3683 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 03:53:09.130] [37424] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:53:09.132] [37424] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 03:53:09.133] [37424] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 03:53:09.133] [37424] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 03:53:09.133] [37424] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 03:53:09.133] [37424] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 03:53:09.133] [37424] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:53:09.133] [37424] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 03:53:09.133] [37424] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 03:53:14.134] [37444] [HailoRT] [info] [vdevice_native_stream.cpp:142] [write_impl] Failed write to stream mars_landmark/input_layer1 (device: 0001:01:00.0) with status=HAILO_STREAM_ABORT(63)
+[2026-01-08 03:53:14.134] [37440] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0001:01:00.0)
+[2026-01-08 03:53:14.134] [37440] [HailoRT] [info] [edge_elements.cpp:396] [run_pull] Reading from stream was aborted!
+[2026-01-08 03:53:14.134] [37444] [HailoRT] [info] [edge_elements.cpp:87] [run_push] Failed to send on input stream InputStream(index=3, name=mars_landmark/input_layer1) because stream was aborted
+[2026-01-08 03:53:14.134] [37440] [HailoRT] [info] [queue_elements.cpp:867] [run_in_thread] run_pull of UserBuffQEl0mars_landmark/softmax1 was aborted!
+[2026-01-08 03:53:14.134] [37444] [HailoRT] [info] [vstream.cpp:778] [write] Sending to VStream was aborted!
+[2026-01-08 03:53:14.134] [37443] [HailoRT] [info] [queue_elements.cpp:834] [run_pull] Shutdown event was signaled in dequeue of queue element UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 03:53:14.134] [37443] [HailoRT] [info] [vstream.cpp:1138] [read] Receiving to VStream was shutdown!
+[2026-01-08 03:53:14.135] [37440] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 03:53:14.135] [37424] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 03:53:14.135] [37424] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.003426 ms
+[2026-01-08 03:53:14.135] [37424] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.012592 ms
+[2026-01-08 04:03:30.471] [38146] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 04:03:30.484] [38146] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 04:03:30.485] [38146] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 04:03:30.485] [38146] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 04:03:30.490] [38146] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 04:03:30.490] [38146] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 04:03:30.495] [38146] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 04:03:30.495] [38146] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 04:03:30.495] [38146] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 04:03:30.503] [38146] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 13.609903 milliseconds
+[2026-01-08 04:03:30.503] [38146] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 13.938725 milliseconds
+[2026-01-08 04:03:30.504] [38146] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 04:03:30.504] [38146] [HailoRT] [info] [queue_elements.cpp:284] [create] Created (PushQEl3mars_landmark/input_layer1 | timeout: 10s)
+[2026-01-08 04:03:30.504] [38146] [HailoRT] [info] [filter_elements.cpp:101] [create] Created (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 255)
+[2026-01-08 04:03:30.504] [38146] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 04:03:30.504] [38146] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 255) >> (PushQEl3mars_landmark/input_layer1 | timeout: 10s) >> (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 04:03:30.504] [38146] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 04:03:30.504] [38146] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0mars_landmark/softmax1)
+[2026-01-08 04:03:30.504] [38146] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-01-08 04:03:30.504] [38146] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 04:03:30.504] [38146] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 04:03:30.504] [38146] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (PullQEl_hw_read0mars_landmark/softmax1) >> (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 04:03:30.504] [38146] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 04:03:30.504] [38146] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 04:03:30.504] [38146] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.193041 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 04:03:30.504] [38146] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.201226 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 04:03:37.895] [38174] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-01-08 04:03:37.895] [38146] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.413693 ms
+[2026-01-08 04:03:37.895] [38146] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.433287 ms
+[2026-01-08 04:03:37.895] [38174] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0mars_landmark/softmax1!
+[2026-01-08 04:03:37.895] [38175] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 04:03:37.895] [38174] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 04:03:37.895] [38146] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 04:03:37.896] [38175] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 04:03:37.896] [38146] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 04:03:37.896] [38173] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PushQEl3mars_landmark/input_layer1 is not running anymore, exiting..
+[2026-01-08 04:03:37.896] [38146] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PushQEl3mars_landmark/input_layer1 has 0 frames in his Queue on destruction
+[2026-01-08 04:11:54.122] [41676] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-01-08 04:11:54.133] [41676] [HailoRT] [info] [device.cpp:49] [Device] OS Version: Linux 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64
+[2026-01-08 04:11:54.135] [41676] [HailoRT] [info] [control.cpp:108] [control__parse_identify_results] firmware_version is: 4.20.0
+[2026-01-08 04:11:54.135] [41676] [HailoRT] [info] [vdevice.cpp:651] [create] VDevice Infos: 0001:01:00.0
+[2026-01-08 04:11:54.141] [41676] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 04:11:54.141] [41676] [HailoRT] [warning] [device_internal.cpp:616] [check_hef_is_compatible] HEF was compiled for Hailo8L device, while the device itself is Hailo8. This will result in lower performance.
+[2026-01-08 04:11:54.146] [41676] [HailoRT] [info] [buffer_requirements.cpp:195] [find_initial_desc_page_size] Using non-default initial_desc_page_size of 64, due to a small transfer size (8)
+[2026-01-08 04:11:54.147] [41676] [HailoRT] [info] [internal_buffer_manager.cpp:204] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 89088. memory to edge layer usage factor is 1
+[2026-01-08 04:11:54.147] [41676] [HailoRT] [info] [internal_buffer_manager.cpp:212] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-01-08 04:11:54.154] [41676] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 13.346558 milliseconds
+[2026-01-08 04:11:54.155] [41676] [HailoRT] [info] [vdevice.cpp:749] [configure] Configuring HEF on VDevice took 13.831271 milliseconds
+[2026-01-08 04:11:54.155] [41676] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528)
+[2026-01-08 04:11:54.155] [41676] [HailoRT] [info] [queue_elements.cpp:284] [create] Created (PushQEl3mars_landmark/input_layer1 | timeout: 10s)
+[2026-01-08 04:11:54.155] [41676] [HailoRT] [info] [filter_elements.cpp:101] [create] Created (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 255)
+[2026-01-08 04:11:54.155] [41676] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating mars_landmark/input_layer1...
+[2026-01-08 04:11:54.155] [41676] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'mars_landmark/input_layer1': (PreInferEl3mars_landmark/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 255) >> (PushQEl3mars_landmark/input_layer1 | timeout: 10s) >> (HwWriteEl3mars_landmark/input_layer1 | hw_frame_size: 150528) >> HW
+[2026-01-08 04:11:54.155] [41676] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8)
+[2026-01-08 04:11:54.155] [41676] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0mars_landmark/softmax1)
+[2026-01-08 04:11:54.155] [41676] [HailoRT] [info] [filter_elements.cpp:375] [create] Created (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-01-08 04:11:54.155] [41676] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 04:11:54.155] [41676] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating mars_landmark/softmax1...
+[2026-01-08 04:11:54.156] [41676] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'mars_landmark/softmax1': HW >> (HwReadEl0mars_landmark/softmax1 | hw_frame_size: 8) >> (PullQEl_hw_read0mars_landmark/softmax1) >> (PostInferEl0mars_landmark/softmax1 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl0mars_landmark/softmax1 | timeout: 10s)
+[2026-01-08 04:11:54.156] [41676] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 04:11:54.156] [41676] [HailoRT] [info] [hef.cpp:1929] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: mars_landmark
+[2026-01-08 04:11:54.156] [41676] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.234319 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 04:11:54.156] [41676] [HailoRT] [info] [core_op.cpp:156] [activate] Activating mars_landmark took 0.246635 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-01-08 04:12:01.530] [41700] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-01-08 04:12:01.530] [41676] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.402972 ms
+[2026-01-08 04:12:01.530] [41676] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.420879 ms
+[2026-01-08 04:12:01.530] [41700] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0mars_landmark/softmax1!
+[2026-01-08 04:12:01.530] [41701] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0mars_landmark/softmax1!
+[2026-01-08 04:12:01.530] [41700] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 04:12:01.530] [41676] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 04:12:01.530] [41701] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0mars_landmark/softmax1 is not running anymore, exiting..
+[2026-01-08 04:12:01.530] [41676] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0mars_landmark/softmax1 has 0 frames in his Queue on destruction
+[2026-01-08 04:12:01.530] [41699] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PushQEl3mars_landmark/input_layer1 is not running anymore, exiting..
+[2026-01-08 04:12:01.530] [41676] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PushQEl3mars_landmark/input_layer1 has 0 frames in his Queue on destruction

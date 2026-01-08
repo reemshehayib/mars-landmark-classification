@@ -2,10 +2,10 @@
 MARS LANDMARK PERFORMANCE REPORT
 ============================================================
 [LATENCY METRICS]
-Average Inference Time: 3.85 ms per image
-Total Pure Inference:   5.77 seconds
-Total Script Duration:  6.44 seconds
-Throughput:             259.88 frames per second (FPS)
+Average Inference Time: 10.03 ms per image
+Total Pure Inference:   15.04 seconds
+Total Script Duration:  17.47 seconds
+Throughput:             99.66 frames per second (FPS)
 
 [CLASSIFICATION METRICS]
                precision    recall  f1-score   support

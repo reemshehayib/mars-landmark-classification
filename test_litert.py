@@ -4,6 +4,7 @@ import numpy as np
 from sklearn.metrics import classification_report
 import os
 import time
+import tflite_runtime.interpreter as tflite
 
 # --- CONFIG ---
 TFLITE_MODEL = 'mars_model_quant.tflite'
@@ -12,7 +13,7 @@ TEST_CSV = 'test.csv'
 CLASS_NAMES = ['other', 'crater', 'dark dune', 'slope streak', 'bright dune', 'impact ejecta', 'swiss cheese', 'spider']
 
 # 1. Setup Interpreter
-interpreter = tf.lite.Interpreter(model_path=TFLITE_MODEL)
+interpreter = tflite.Interpreter(model_path=TFLITE_MODEL)
 interpreter.allocate_tensors()
 input_details = interpreter.get_input_details()[0]
 output_details = interpreter.get_output_details()[0]
