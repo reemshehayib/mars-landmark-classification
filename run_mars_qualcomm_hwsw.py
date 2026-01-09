@@ -2,24 +2,28 @@ import numpy as np
 import pandas as pd
 from tflite_runtime.interpreter import Interpreter
 from PIL import Image
-import serial  # Native way to talk to the STM32
+import serial
 import os
 import time
 
-# --- CONFIG ---
+# --- CONFIGURATION ---
 TFLITE_MODEL = 'mars_model_quant.tflite'
 IMAGE_FOLDER = 'data/map-proj-v3/'
 TEST_CSV = 'test.csv'
 CLASS_NAMES = ['other', 'crater', 'dark dune', 'slope streak', 'bright dune', 'impact ejecta', 'swiss cheese', 'spider']
+SERIAL_PORT = '/dev/ttyHS1' # Correct high-speed port for UNO Q
+BAUD_RATE = 115200
 
-# 1. Setup Serial Bridge (The "Nervous System")
+# 1. Initialize Serial Connection
 try:
-    # On Arduino UNO Q, the internal serial is usually /dev/ttyMSM1
-    ser = serial.Serial('/dev/ttyHS1', 115200, timeout=1)
+    ser = serial.Serial(SERIAL_PORT, BAUD_RATE, timeout=1)
+    # Clear any junk data in the buffer
+    ser.flushInput()
+    ser.flushOutput()
     HAS_SERIAL = True
-    print("✅ Serial bridge to Arduino connected.")
+    print(f"✅ Connected to STM32 at {SERIAL_PORT}")
 except Exception as e:
-    print(f"⚠️ Serial bridge failed: {e}. Running in Simulation Mode.")
+    print(f"⚠️ Serial connection failed: {e}")
     HAS_SERIAL = False
 
 # 2. Setup TFLite Interpreter
@@ -29,39 +33,40 @@ input_details = interpreter.get_input_details()[0]
 output_details = interpreter.get_output_details()[0]
 input_scale, input_zero_point = input_details['quantization']
 
+# 3. Load Test Data
 test_df = pd.read_csv(TEST_CSV)
-print("🚀 Rover AI Initialized. Processing Mars Terrain...")
+print("🚀 Rover AI Online. Starting Autonomy Mode...")
 
 try:
     for _, row in test_df.iterrows():
         img_path = os.path.join(IMAGE_FOLDER, row['filename'])
         if not os.path.exists(img_path): continue
 
-        # 3. Preprocessing
+        # Preprocessing
         img = Image.open(img_path).convert('RGB').resize((224, 224))
         img_array = np.array(img).astype(np.float32) / 255.0
         input_data = (img_array / input_scale) + input_zero_point
         input_data = np.expand_dims(input_data.astype(np.int8), axis=0)
 
-        # 4. Inference
+        # Inference
         interpreter.set_tensor(input_details['index'], input_data)
         interpreter.invoke()
         prediction = np.argmax(interpreter.get_tensor(output_details['index']))
         label = CLASS_NAMES[prediction]
 
-        print(f"Detected: {label}")
+        print(f"Targeting: {label:15}")
 
-        # 5. Hardware Action
+        # 4. Send Command to Hardware
         if HAS_SERIAL:
             if label == 'crater':
-                ser.write(b'1')  # Sending as a single byte
-                ser.flush()      # Force the data out of the buffer immediately
+                ser.write(b'1\n') # Signal '1' with newline
             else:
-                ser.write(b'0')
-                ser.flush()
+                ser.write(b'0\n') # Signal '0' with newline
+            ser.flush() # Ensure it leaves the Python buffer immediately
 
-        time.sleep(0.1)
+        # Small delay to sync with LED visual persistence
+        time.sleep(0.2)
 
 except KeyboardInterrupt:
     if HAS_SERIAL: ser.close()
-    print("\n🛑 Mission Aborted.")
+    print("\n🛑 Mission Aborted by Pilot.")
