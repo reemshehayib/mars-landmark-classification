@@ -1,23 +1,33 @@
-#include <zephyr/drivers/gpio.h> // Zephyr specific
-
-// This uses the board's actual built-in LED definition
-#define LED0_NODE DT_ALIAS(led0)
+/* Robust Mars Rover Receiver for Zephyr/UNO Q */
 
 void setup() {
+  // Serial is the Network Console (what we see in terminal)
   Serial.begin(115200); 
-  // Use LED_BUILTIN - standard Arduino-to-Zephyr mapping
-  pinMode(LED_BUILTIN, OUTPUT); 
+  // Serial1 is the actual internal HS1 hardware bridge 
+  Serial1.begin(115200); 
+  
+  // LED_BUILTIN is usually Pin 13, but Zephyr maps it to the board's USER LED
+  pinMode(LED_BUILTIN, OUTPUT);
+  
+  // Flash 3 times on startup to prove the LED works
+  for(int i=0; i<3; i++) {
+    digitalWrite(LED_BUILTIN, HIGH); delay(100);
+    digitalWrite(LED_BUILTIN, LOW); delay(100);
+  }
 }
 
 void loop() {
-  if (Serial.available() > 0) {
-    int incomingByte = Serial.read();
+  // Listen on the internal hardware bridge (Serial1)
+  if (Serial1.available() > 0) {
+    char val = Serial1.read();
     
-    // We check for both ASCII '1' and raw byte 1 just in case
-    if (incomingByte == '1' || incomingByte == 1) {
+    if (val == '1') {
       digitalWrite(LED_BUILTIN, HIGH);
-    } else if (incomingByte == '0' || incomingByte == 0) {
+      Serial.println("Bridge Received: LED ON"); // Debug back to terminal
+    } 
+    else if (val == '0') {
       digitalWrite(LED_BUILTIN, LOW);
+      Serial.println("Bridge Received: LED OFF");
     }
   }
 }
