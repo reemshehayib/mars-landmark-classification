@@ -58,18 +58,16 @@ try:
 
         # 4. Send Command to Hardware
         # --- SIMPLE HARDWARE TRIGGER ---
+        # --- LOGO LED TRIGGER ---
         if HAS_SERIAL:
             if label == 'crater':
-                print(">>> SENDING ON (1)")
+                print(">>> [RED] CRATER")
                 ser.write(b'1')
             else:
-                print(">>> SENDING OFF (0)")
+                print(">>> [GREEN] CLEAR")
                 ser.write(b'0')
             ser.flush()
-        # ------------------------------
-
-        # Small delay to sync with LED visual persistence
-        time.sleep(0.2)
+        time.sleep(0.3) # Give your eyes time to see the color change
 
 except KeyboardInterrupt:
     if HAS_SERIAL: ser.close()

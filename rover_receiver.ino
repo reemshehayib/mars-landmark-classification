@@ -1,22 +1,28 @@
 void setup() {
-  Serial.begin(115200);  // USB/Console
   Serial1.begin(115200); // Internal Bridge
   
-  pinMode(13, OUTPUT);          // Standard Arduino LED pin
-  pinMode(LED_BUILTIN, OUTPUT); // Zephyr Alias LED pin
+  // Initialize the RGB pins near the logo
+  pinMode(LEDR, OUTPUT);
+  pinMode(LEDG, OUTPUT);
+  
+  // Start with both OFF (True for common anode, use HIGH to turn off)
+  digitalWrite(LEDR, HIGH); 
+  digitalWrite(LEDG, HIGH);
 }
 
 void loop() {
-  // If ANY data comes in from ANYWHERE
-  if (Serial.available() > 0 || Serial1.available() > 0) {
-    char val = (Serial.available() > 0) ? Serial.read() : Serial1.read();
+  if (Serial1.available() > 0) {
+    char val = Serial1.read();
     
     if (val == '1') {
-      digitalWrite(13, HIGH);
-      digitalWrite(LED_BUILTIN, HIGH);
-    } else if (val == '0') {
-      digitalWrite(13, LOW);
-      digitalWrite(LED_BUILTIN, LOW);
+      // CRATER: Red ON, Green OFF
+      digitalWrite(LEDR, LOW);  // LOW is ON for many RGBs
+      digitalWrite(LEDG, HIGH); 
+    } 
+    else if (val == '0') {
+      // CLEAR: Green ON, Red OFF
+      digitalWrite(LEDR, HIGH); 
+      digitalWrite(LEDG, LOW); 
     }
   }
 }
