@@ -15,7 +15,7 @@ CLASS_NAMES = ['other', 'crater', 'dark dune', 'slope streak', 'bright dune', 'i
 # 1. Setup Serial Bridge (The "Nervous System")
 try:
     # On Arduino UNO Q, the internal serial is usually /dev/ttyMSM1
-    ser = serial.Serial('/dev/ttyMSM1', 115200, timeout=1)
+    ser = serial.Serial('/dev/ttyHS1', 115200, timeout=1)
     HAS_SERIAL = True
     print("✅ Serial bridge to Arduino connected.")
 except Exception as e:
