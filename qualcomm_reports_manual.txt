@@ -1,0 +1,20 @@
+🚀 Qualcomm MPU: Starting benchmark on 1499 images...
+============================================================
+MARS QUALCOMM PERFORMANCE REPORT
+============================================================
+Average Inference: 118.10 ms
+Throughput: 8.47 FPS
+               precision    recall  f1-score   support
+
+        other       0.94      0.74      0.83      1251
+       crater       0.76      0.47      0.58       100
+    dark dune       0.86      0.24      0.38        25
+ slope streak       0.17      0.82      0.28        45
+  bright dune       1.00      0.78      0.87        40
+impact ejecta       0.05      0.75      0.10         4
+ swiss cheese       0.73      0.92      0.81        24
+       spider       0.03      0.40      0.06        10
+
+     accuracy                           0.71      1499
+    macro avg       0.57      0.64      0.49      1499
+ weighted avg       0.89      0.71      0.78      1499
