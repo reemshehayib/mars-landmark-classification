@@ -54,9 +54,11 @@ try:
         # 5. Hardware Action
         if HAS_SERIAL:
             if label == 'crater':
-                ser.write(b'L1') # Send command to light LED
+                ser.write(b'1')  # Sending as a single byte
+                ser.flush()      # Force the data out of the buffer immediately
             else:
-                ser.write(b'L0') # Turn off LED
+                ser.write(b'0')
+                ser.flush()
 
         time.sleep(0.1)
 
