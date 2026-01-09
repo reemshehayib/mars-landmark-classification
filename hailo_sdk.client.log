@@ -1,0 +1,179 @@
+2026-01-08 02:04:20,439 - INFO - parser.py:78 - Translation started on Tensorflow model mars_landmark
+2026-01-08 02:04:30,467 - INFO - parser.py:78 - Translation started on Tensorflow model mars_landmark
+2026-01-08 02:10:16,320 - INFO - parser.py:78 - Translation started on Tensorflow model mars_landmark
+2026-01-08 02:10:16,516 - INFO - parser.py:366 - Start nodes mapped from original model: 'serving_default_input_layer_1:0': 'mars_landmark/input_layer1'.
+2026-01-08 02:10:16,516 - INFO - parser.py:367 - End nodes mapped from original model: 'StatefulPartitionedCall_1:0'.
+2026-01-08 02:10:16,535 - INFO - parser.py:110 - Translation completed on Tensorflow model mars_landmark (completion time: 00:00:00.22)
+2026-01-08 02:10:16,933 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/input_layer1 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,933 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv1 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,933 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/dw1 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,934 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv2 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,934 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv3 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,934 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/dw2 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,934 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv4 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,934 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv5 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,935 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/dw3 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,935 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv6 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,935 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/ew_add1 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,935 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv7 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,935 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/dw4 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,936 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv8 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,936 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv9 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,936 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/dw5 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,936 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv10 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,936 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/ew_add2 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,937 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv11 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,937 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/dw6 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,937 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv12 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,937 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/ew_add3 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,937 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv13 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,937 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/dw7 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,938 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv14 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,938 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv15 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,938 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/dw8 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,938 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv16 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,938 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/ew_add4 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,939 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv17 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,939 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/dw9 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,939 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv18 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,939 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/ew_add5 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,939 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv19 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,940 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/dw10 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,940 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv20 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,940 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/ew_add6 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,940 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv21 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,940 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/dw11 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,940 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv22 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,941 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv23 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,941 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/dw12 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,941 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv24 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,941 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/ew_add7 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,941 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv25 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,942 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/dw13 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,942 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv26 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,942 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/ew_add8 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,942 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv27 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,942 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/dw14 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,943 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv28 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,943 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv29 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,943 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/dw15 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,943 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv30 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,943 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/ew_add9 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,943 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv31 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,944 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/dw16 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,944 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv32 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,944 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/ew_add10 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,944 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv33 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,944 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/dw17 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,945 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv34 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,945 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/conv35 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,945 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/avgpool1 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,945 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/fc1 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,945 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/softmax1 has implicit precision config during compilation, filling default values
+2026-01-08 02:10:16,946 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_landmark/output_layer1 has implicit precision config during compilation, filling default values
+2026-01-08 02:11:10,636 - INFO - parser.py:78 - Translation started on Tensorflow model mars_landmark
+2026-01-08 02:11:10,837 - INFO - parser.py:366 - Start nodes mapped from original model: 'serving_default_input_layer_1:0': 'mars_landmark/input_layer1'.
+2026-01-08 02:11:10,837 - INFO - parser.py:367 - End nodes mapped from original model: 'StatefulPartitionedCall_1:0'.
+2026-01-08 02:11:10,856 - INFO - parser.py:110 - Translation completed on Tensorflow model mars_landmark (completion time: 00:00:00.22)
+2026-01-08 02:11:11,519 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2026-01-08 02:11:11,632 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-01-08 02:11:11,710 - WARNING - mo_config.py:168 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's less data than the recommended amount (1024), and there's no available GPU
+2026-01-08 02:11:11,710 - WARNING - mo_config.py:233 - Running model optimization with zero level of optimization is not recommended for production use and might lead to suboptimal accuracy results
+2026-01-08 02:11:11,711 - INFO - mo_script_parser.py:91 - Model received quantization params from the hn
+2026-01-08 02:11:13,044 - INFO - algorithm_base.py:149 - MatmulDecompose skipped
+2026-01-08 02:11:13,076 - INFO - algorithm_base.py:152 - Starting Mixed Precision
+2026-01-08 02:11:13,398 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Mixed Precision is done (completion time is 00:00:00.32)
+2026-01-08 02:11:13,578 - INFO - algorithm_base.py:149 - LayerNorm Decomposition skipped
+2026-01-08 02:11:13,786 - INFO - algorithm_base.py:152 - Starting Statistics Collector
+2026-01-08 02:11:13,791 - INFO - stats_collection.py:89 - Using dataset with 64 entries for calibration
+2026-01-08 02:11:22,174 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Statistics Collector is done (completion time is 00:00:08.38)
+2026-01-08 02:11:23,011 - INFO - algorithm_base.py:152 - Starting Fix zp_comp Encoding
+2026-01-08 02:11:23,011 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Fix zp_comp Encoding is done (completion time is 00:00:00.00)
+2026-01-08 02:11:23,011 - INFO - algorithm_base.py:149 - Matmul Equalization skipped
+2026-01-08 02:11:23,011 - INFO - algorithm_base.py:152 - Starting MatmulDecomposeFix
+2026-01-08 02:11:23,011 - INFO - algorithm_base.py:168 - Model Optimization Algorithm MatmulDecomposeFix is done (completion time is 00:00:00.00)
+2026-01-08 02:11:26,723 - INFO - algorithm_base.py:149 - Finetune encoding skipped
+2026-01-08 02:11:26,724 - INFO - algorithm_base.py:149 - Bias Correction skipped
+2026-01-08 02:11:26,728 - INFO - algorithm_base.py:149 - Adaround skipped
+2026-01-08 02:11:26,730 - INFO - algorithm_base.py:149 - Quantization-Aware Fine-Tuning skipped
+2026-01-08 02:11:29,514 - INFO - algorithm_base.py:149 - Layer Noise Analysis skipped
+2026-01-08 02:11:29,571 - INFO - quant_checker.py:171 - The calibration set seems to not be normalized, because the values range is [(7.584471e-07, 0.99999964), (1.2008941e-08, 0.99999994), (2.706001e-07, 0.9999997)].
+Since the neural core works in 8-bit (between 0 to 255), a quantization will occur on the CPU of the runtime platform.
+Add a normalization layer to the model to offload the normalization to the neural core.
+Refer to the user guide Hailo Dataflow Compiler user guide / Model Optimization / Optimization Related Model Script Commands / model_modification_commands / normalization for details.
+2026-01-08 02:11:31,921 - IMPORTANT - sdk_backend.py:1145 - Model Optimization is done
+2026-01-08 02:11:31,931 - INFO - hailo_tools_runner.py:510 - To achieve optimal performance, set the compiler_optimization_level to "max" by adding performance_param(compiler_optimization_level=max) to the model script. Note that this may increase compilation time.
+2026-01-08 02:37:41,990 - INFO - parser.py:78 - Translation started on Tensorflow model mars_landmark
+2026-01-08 02:37:42,185 - INFO - parser.py:366 - Start nodes mapped from original model: 'serving_default_input_layer_1:0': 'mars_landmark/input_layer1'.
+2026-01-08 02:37:42,186 - INFO - parser.py:367 - End nodes mapped from original model: 'StatefulPartitionedCall_1:0'.
+2026-01-08 02:37:42,204 - INFO - parser.py:110 - Translation completed on Tensorflow model mars_landmark (completion time: 00:00:00.21)
+2026-01-08 02:37:42,805 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2026-01-08 02:37:42,919 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-01-08 02:37:43,005 - WARNING - mo_config.py:168 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's less data than the recommended amount (1024), and there's no available GPU
+2026-01-08 02:37:43,005 - WARNING - mo_config.py:233 - Running model optimization with zero level of optimization is not recommended for production use and might lead to suboptimal accuracy results
+2026-01-08 02:37:43,006 - INFO - mo_script_parser.py:91 - Model received quantization params from the hn
+2026-01-08 02:39:23,522 - INFO - parser.py:78 - Translation started on Tensorflow model mars_landmark
+2026-01-08 02:39:23,720 - INFO - parser.py:366 - Start nodes mapped from original model: 'serving_default_input_layer_1:0': 'mars_landmark/input_layer1'.
+2026-01-08 02:39:23,720 - INFO - parser.py:367 - End nodes mapped from original model: 'StatefulPartitionedCall_1:0'.
+2026-01-08 02:39:23,739 - INFO - parser.py:110 - Translation completed on Tensorflow model mars_landmark (completion time: 00:00:00.22)
+2026-01-08 02:39:24,333 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2026-01-08 02:39:24,446 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-01-08 02:39:24,523 - WARNING - mo_config.py:168 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's less data than the recommended amount (1024), and there's no available GPU
+2026-01-08 02:39:24,523 - WARNING - mo_config.py:233 - Running model optimization with zero level of optimization is not recommended for production use and might lead to suboptimal accuracy results
+2026-01-08 02:39:24,524 - INFO - mo_script_parser.py:91 - Model received quantization params from the hn
+2026-01-08 02:39:25,855 - INFO - algorithm_base.py:149 - MatmulDecompose skipped
+2026-01-08 02:39:25,887 - INFO - algorithm_base.py:152 - Starting Mixed Precision
+2026-01-08 02:39:26,217 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Mixed Precision is done (completion time is 00:00:00.33)
+2026-01-08 02:39:26,398 - INFO - algorithm_base.py:149 - LayerNorm Decomposition skipped
+2026-01-08 02:39:26,603 - INFO - algorithm_base.py:152 - Starting Statistics Collector
+2026-01-08 02:39:26,607 - INFO - stats_collection.py:89 - Using dataset with 64 entries for calibration
+2026-01-08 02:39:34,450 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Statistics Collector is done (completion time is 00:00:07.84)
+2026-01-08 02:39:34,871 - INFO - algorithm_base.py:152 - Starting Fix zp_comp Encoding
+2026-01-08 02:39:34,871 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Fix zp_comp Encoding is done (completion time is 00:00:00.00)
+2026-01-08 02:39:34,871 - INFO - algorithm_base.py:149 - Matmul Equalization skipped
+2026-01-08 02:39:34,872 - INFO - algorithm_base.py:152 - Starting MatmulDecomposeFix
+2026-01-08 02:39:34,872 - INFO - algorithm_base.py:168 - Model Optimization Algorithm MatmulDecomposeFix is done (completion time is 00:00:00.00)
+2026-01-08 02:39:38,589 - INFO - algorithm_base.py:149 - Finetune encoding skipped
+2026-01-08 02:39:38,590 - INFO - algorithm_base.py:149 - Bias Correction skipped
+2026-01-08 02:39:38,595 - INFO - algorithm_base.py:149 - Adaround skipped
+2026-01-08 02:39:38,596 - INFO - algorithm_base.py:149 - Quantization-Aware Fine-Tuning skipped
+2026-01-08 02:39:41,404 - INFO - algorithm_base.py:149 - Layer Noise Analysis skipped
+2026-01-08 02:39:41,460 - INFO - quant_checker.py:171 - The calibration set seems to not be normalized, because the values range is [(0.0, 1.0), (0.0, 1.0), (0.0, 1.0)].
+Since the neural core works in 8-bit (between 0 to 255), a quantization will occur on the CPU of the runtime platform.
+Add a normalization layer to the model to offload the normalization to the neural core.
+Refer to the user guide Hailo Dataflow Compiler user guide / Model Optimization / Optimization Related Model Script Commands / model_modification_commands / normalization for details.
+2026-01-08 02:39:43,789 - IMPORTANT - sdk_backend.py:1145 - Model Optimization is done
+2026-01-08 02:39:43,799 - INFO - hailo_tools_runner.py:510 - To achieve optimal performance, set the compiler_optimization_level to "max" by adding performance_param(compiler_optimization_level=max) to the model script. Note that this may increase compilation time.
+2026-01-08 03:29:12,172 - INFO - parser.py:78 - Translation started on Tensorflow model mars_landmark
+2026-01-08 03:29:12,373 - INFO - parser.py:366 - Start nodes mapped from original model: 'serving_default_input_layer_1:0': 'mars_landmark/input_layer1'.
+2026-01-08 03:29:12,373 - INFO - parser.py:367 - End nodes mapped from original model: 'StatefulPartitionedCall_1:0'.
+2026-01-08 03:29:12,392 - INFO - parser.py:110 - Translation completed on Tensorflow model mars_landmark (completion time: 00:00:00.22)
+2026-01-08 03:29:55,891 - INFO - parser.py:78 - Translation started on Tensorflow model mars_landmark
+2026-01-08 03:29:56,091 - INFO - parser.py:366 - Start nodes mapped from original model: 'serving_default_input_layer_1:0': 'mars_landmark/input_layer1'.
+2026-01-08 03:29:56,091 - INFO - parser.py:367 - End nodes mapped from original model: 'StatefulPartitionedCall_1:0'.
+2026-01-08 03:29:56,110 - INFO - parser.py:110 - Translation completed on Tensorflow model mars_landmark (completion time: 00:00:00.22)
+2026-01-08 03:29:56,515 - INFO - client_runner.py:504 - Loading model script commands to mars_landmark from string
+2026-01-08 03:29:56,734 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2026-01-08 03:29:56,849 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-01-08 03:29:56,934 - WARNING - mo_config.py:168 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's no available GPU
+2026-01-08 03:29:56,934 - WARNING - mo_config.py:233 - Running model optimization with zero level of optimization is not recommended for production use and might lead to suboptimal accuracy results
+2026-01-08 03:29:56,934 - INFO - mo_script_parser.py:91 - Model received quantization params from the hn
+2026-01-08 03:29:58,310 - INFO - algorithm_base.py:149 - MatmulDecompose skipped
+2026-01-08 03:29:58,345 - INFO - algorithm_base.py:152 - Starting Mixed Precision
+2026-01-08 03:29:58,689 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Mixed Precision is done (completion time is 00:00:00.34)
+2026-01-08 03:29:58,867 - INFO - algorithm_base.py:149 - LayerNorm Decomposition skipped
+2026-01-08 03:29:59,080 - INFO - algorithm_base.py:152 - Starting Statistics Collector
+2026-01-08 03:29:59,084 - INFO - stats_collection.py:89 - Using dataset with 64 entries for calibration
+2026-01-08 03:30:06,983 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Statistics Collector is done (completion time is 00:00:07.90)
+2026-01-08 03:30:07,420 - INFO - algorithm_base.py:152 - Starting Fix zp_comp Encoding
+2026-01-08 03:30:07,420 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Fix zp_comp Encoding is done (completion time is 00:00:00.00)
+2026-01-08 03:30:07,420 - INFO - algorithm_base.py:149 - Matmul Equalization skipped
+2026-01-08 03:30:07,420 - INFO - algorithm_base.py:152 - Starting MatmulDecomposeFix
+2026-01-08 03:30:07,420 - INFO - algorithm_base.py:168 - Model Optimization Algorithm MatmulDecomposeFix is done (completion time is 00:00:00.00)
+2026-01-08 03:30:11,159 - INFO - algorithm_base.py:149 - Finetune encoding skipped
+2026-01-08 03:30:11,160 - INFO - algorithm_base.py:149 - Bias Correction skipped
+2026-01-08 03:30:11,165 - INFO - algorithm_base.py:149 - Adaround skipped
+2026-01-08 03:30:11,166 - INFO - algorithm_base.py:149 - Quantization-Aware Fine-Tuning skipped
+2026-01-08 03:30:14,025 - INFO - algorithm_base.py:149 - Layer Noise Analysis skipped
+2026-01-08 03:30:16,476 - IMPORTANT - sdk_backend.py:1145 - Model Optimization is done
+2026-01-08 03:30:16,492 - INFO - hailo_tools_runner.py:510 - To achieve optimal performance, set the compiler_optimization_level to "max" by adding performance_param(compiler_optimization_level=max) to the model script. Note that this may increase compilation time.
