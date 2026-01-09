@@ -57,12 +57,16 @@ try:
         print(f"Targeting: {label:15}")
 
         # 4. Send Command to Hardware
+        # --- SIMPLE HARDWARE TRIGGER ---
         if HAS_SERIAL:
             if label == 'crater':
-                ser.write(b'1\n') # Signal '1' with newline
+                print(">>> SENDING ON (1)")
+                ser.write(b'1')
             else:
-                ser.write(b'0\n') # Signal '0' with newline
-            ser.flush() # Ensure it leaves the Python buffer immediately
+                print(">>> SENDING OFF (0)")
+                ser.write(b'0')
+            ser.flush()
+        # ------------------------------
 
         # Small delay to sync with LED visual persistence
         time.sleep(0.2)
