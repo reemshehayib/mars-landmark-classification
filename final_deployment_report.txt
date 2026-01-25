@@ -1,24 +1,25 @@
 ============================================================
 MARS LANDMARK PERFORMANCE REPORT
 ============================================================
-[LATENCY METRICS]
-Average Inference Time: 3.85 ms per image
-Total Pure Inference:   5.77 seconds
-Total Script Duration:  6.44 seconds
-Throughput:             259.88 frames per second (FPS)
+
+[LATENCY & SPEED]
+Avg Inference Time: 7.48 ms
+Inference Speed:    133.75 FPS
+Total Images:       1499
+Total Script Time:  12.88 s
 
 [CLASSIFICATION METRICS]
                precision    recall  f1-score   support
 
-        other       0.93      0.73      0.82      1251
+        other       0.94      0.73      0.82      1251
        crater       0.76      0.47      0.58       100
-    dark dune       0.75      0.12      0.21        25
- slope streak       0.17      0.78      0.27        45
-  bright dune       1.00      0.80      0.89        40
-impact ejecta       0.05      0.75      0.09         4
- swiss cheese       0.81      0.92      0.86        24
-       spider       0.03      0.30      0.05        10
+    dark dune       0.83      0.20      0.32        25
+ slope streak       0.16      0.76      0.26        45
+  bright dune       1.00      0.78      0.87        40
+impact ejecta       0.07      1.00      0.13         4
+ swiss cheese       0.76      0.92      0.83        24
+       spider       0.02      0.30      0.05        10
 
      accuracy                           0.71      1499
-    macro avg       0.56      0.61      0.47      1499
- weighted avg       0.89      0.71      0.77      1499
+    macro avg       0.57      0.64      0.48      1499
+ weighted avg       0.89      0.71      0.78      1499
