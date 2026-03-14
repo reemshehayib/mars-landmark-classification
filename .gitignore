@@ -1,0 +1,5 @@
+*.hef
+*.har
+*.tflite
+*.npy
+__pycache__/
