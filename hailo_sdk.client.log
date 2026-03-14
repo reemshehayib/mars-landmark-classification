@@ -1,0 +1,226 @@
+2026-03-14 15:50:52,429 - INFO - main.py:34 - Current Time: 15:50:52, 03/14/26
+2026-03-14 15:50:53,439 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 3.2%
+2026-03-14 15:50:53,439 - INFO - main.py:50 - Memory: Total: 31GB, Available: 22GB
+2026-03-14 15:50:53,439 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-85-generic
+2026-03-14 15:50:53,440 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-03-14 15:50:53,440 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-03-14 15:50:53,452 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-03-14 15:50:53,452 - INFO - main.py:109 - Running `hailo`
+2026-03-14 15:51:45,090 - INFO - main.py:34 - Current Time: 15:51:45, 03/14/26
+2026-03-14 15:51:46,100 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 3.2%
+2026-03-14 15:51:46,100 - INFO - main.py:50 - Memory: Total: 31GB, Available: 22GB
+2026-03-14 15:51:46,100 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-85-generic
+2026-03-14 15:51:46,101 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-03-14 15:51:46,101 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-03-14 15:51:46,104 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-03-14 15:51:46,104 - INFO - main.py:109 - Running `hailo parser tf saved-model /mars_landmark_savedmodel --hw-arch hailo8 --output-path model.har`
+2026-03-14 15:52:55,159 - INFO - main.py:34 - Current Time: 15:52:55, 03/14/26
+2026-03-14 15:52:56,169 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 0.1%
+2026-03-14 15:52:56,171 - INFO - main.py:50 - Memory: Total: 31GB, Available: 24GB
+2026-03-14 15:52:56,171 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-85-generic
+2026-03-14 15:52:56,172 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-03-14 15:52:56,173 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-03-14 15:52:56,184 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-03-14 15:52:56,184 - INFO - main.py:109 - Running `hailo parser tf /path/to/mars_landmark_savedmodel --hw-arch hailo8 --output-path model.har`
+2026-03-14 15:53:38,912 - INFO - main.py:34 - Current Time: 15:53:38, 03/14/26
+2026-03-14 15:53:39,921 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 0.1%
+2026-03-14 15:53:39,922 - INFO - main.py:50 - Memory: Total: 31GB, Available: 24GB
+2026-03-14 15:53:39,922 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-85-generic
+2026-03-14 15:53:39,923 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-03-14 15:53:39,924 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-03-14 15:53:39,934 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-03-14 15:53:39,934 - INFO - main.py:109 - Running `hailo parser tf saved-model --hw-arch hailo8 --saved-model-path /path/to/mars_landmark_savedmodel --output-path model.har`
+2026-03-14 15:54:14,718 - INFO - main.py:34 - Current Time: 15:54:14, 03/14/26
+2026-03-14 15:54:15,729 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 0.1%
+2026-03-14 15:54:15,730 - INFO - main.py:50 - Memory: Total: 31GB, Available: 24GB
+2026-03-14 15:54:15,730 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-85-generic
+2026-03-14 15:54:15,731 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-03-14 15:54:15,732 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-03-14 15:54:15,743 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-03-14 15:54:15,743 - INFO - main.py:109 - Running `hailo parser tf saved-model --hw-arch hailo8 --net-name mars_landmark --saved-model-path /path/to/mars_landmark_savedmodel --output-path model.har`
+2026-03-14 15:54:24,959 - INFO - main.py:34 - Current Time: 15:54:24, 03/14/26
+2026-03-14 15:54:25,969 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 0.0%
+2026-03-14 15:54:25,970 - INFO - main.py:50 - Memory: Total: 31GB, Available: 24GB
+2026-03-14 15:54:25,970 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-85-generic
+2026-03-14 15:54:25,971 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-03-14 15:54:25,972 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-03-14 15:54:25,980 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-03-14 15:54:25,980 - INFO - main.py:109 - Running `hailo parser tf saved-model --hw-arch hailo8 --net-name mars_landmark --saved-model-path /path/to/mars_landmark_savedmodel --output-path model.har`
+2026-03-14 15:55:07,999 - INFO - main.py:34 - Current Time: 15:55:07, 03/14/26
+2026-03-14 15:55:09,008 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 0.1%
+2026-03-14 15:55:09,009 - INFO - main.py:50 - Memory: Total: 31GB, Available: 24GB
+2026-03-14 15:55:09,009 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-85-generic
+2026-03-14 15:55:09,010 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-03-14 15:55:09,011 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-03-14 15:55:09,019 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-03-14 15:55:09,019 - INFO - main.py:109 - Running `hailo parser tf saved-model /path/to/mars_landmark_savedmodel --hw-arch hailo8 --output-path model.har`
+2026-03-14 15:57:42,679 - INFO - main.py:34 - Current Time: 15:57:42, 03/14/26
+2026-03-14 15:57:43,690 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 0.1%
+2026-03-14 15:57:43,691 - INFO - main.py:50 - Memory: Total: 31GB, Available: 24GB
+2026-03-14 15:57:43,691 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-85-generic
+2026-03-14 15:57:43,692 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-03-14 15:57:43,693 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-03-14 15:57:43,703 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-03-14 15:57:43,703 - INFO - main.py:109 - Running `hailo parser tf --model /home/rshehayi/reem_tests/mars-landmark-classification/mars_landmark_savedmodel --hw-arch hailo8 --output-path mars_landmark.har`
+2026-03-14 15:58:11,960 - INFO - main.py:34 - Current Time: 15:58:11, 03/14/26
+2026-03-14 15:58:12,970 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 0.1%
+2026-03-14 15:58:12,971 - INFO - main.py:50 - Memory: Total: 31GB, Available: 24GB
+2026-03-14 15:58:12,971 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-85-generic
+2026-03-14 15:58:12,972 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-03-14 15:58:12,973 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-03-14 15:58:12,983 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-03-14 15:58:12,983 - INFO - main.py:109 - Running `hailo parser tf saved-model /home/rshehayi/reem_tests/mars-landmark-classification/mars_landmark_savedmodel --hw-arch hailo8`
+2026-03-14 15:59:10,779 - INFO - main.py:34 - Current Time: 15:59:10, 03/14/26
+2026-03-14 15:59:11,789 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 0.1%
+2026-03-14 15:59:11,791 - INFO - main.py:50 - Memory: Total: 31GB, Available: 24GB
+2026-03-14 15:59:11,791 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-85-generic
+2026-03-14 15:59:11,792 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-03-14 15:59:11,793 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-03-14 15:59:11,802 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-03-14 15:59:11,802 - INFO - main.py:109 - Running `hailo parser tf -h`
+2026-03-14 16:01:10,963 - INFO - main.py:34 - Current Time: 16:01:10, 03/14/26
+2026-03-14 16:01:11,973 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 6.4%
+2026-03-14 16:01:11,974 - INFO - main.py:50 - Memory: Total: 31GB, Available: 22GB
+2026-03-14 16:01:11,974 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-85-generic
+2026-03-14 16:01:11,974 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-03-14 16:01:11,975 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-03-14 16:01:11,978 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-03-14 16:01:11,979 - INFO - main.py:109 - Running `hailo parser tf /home/rshehayi/reem_tests/mars-landmark-classification/mars_model_quant.tflite --hw-arch hailo8 --har-path /home/rshehayi/reem_tests/mars-landmark-classification/mars_landmark.har`
+2026-03-14 16:30:26,990 - INFO - main.py:34 - Current Time: 16:30:26, 03/14/26
+2026-03-14 16:30:28,019 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 0.1%
+2026-03-14 16:30:28,020 - INFO - main.py:50 - Memory: Total: 31GB, Available: 24GB
+2026-03-14 16:30:28,020 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-85-generic
+2026-03-14 16:30:28,021 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-03-14 16:30:28,022 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-03-14 16:30:28,032 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-03-14 16:30:28,033 - INFO - main.py:109 - Running `hailo parser tf /home/rshehayi/reem_tests/mars-landmark-classification/mars_model_float32.tflite --hw-arch hailo8 --har-path /home/rshehayi/reem_tests/mars-landmark-classification/mars_landmark.har`
+2026-03-14 16:30:28,078 - INFO - parser.py:78 - Translation started on Tensorflow model mars_model_float32
+2026-03-14 16:30:28,277 - INFO - parser.py:366 - Start nodes mapped from original model: 'serving_default_input_layer_1:0': 'mars_model_float32/input_layer1'.
+2026-03-14 16:30:28,277 - INFO - parser.py:367 - End nodes mapped from original model: 'StatefulPartitionedCall_1:0'.
+2026-03-14 16:30:28,297 - INFO - parser.py:110 - Translation completed on Tensorflow model mars_model_float32 (completion time: 00:00:00.22)
+2026-03-14 16:30:28,723 - INFO - client_runner.py:1881 - Saved HAR to: /home/rshehayi/reem_tests/mars-landmark-classification/mars_landmark.har
+2026-03-14 16:31:16,141 - INFO - main.py:34 - Current Time: 16:31:16, 03/14/26
+2026-03-14 16:31:17,155 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 0.1%
+2026-03-14 16:31:17,156 - INFO - main.py:50 - Memory: Total: 31GB, Available: 24GB
+2026-03-14 16:31:17,156 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-85-generic
+2026-03-14 16:31:17,157 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-03-14 16:31:17,158 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-03-14 16:31:17,167 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-03-14 16:31:17,167 - INFO - main.py:109 - Running `hailo compiler /home/rshehayi/reem_tests/mars-landmark-classification/mars_landmark.har --hw-arch hailo8`
+2026-03-14 16:31:17,606 - INFO - compiler_cli.py:81 - Compiling network
+2026-03-14 16:31:17,607 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/input_layer1 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,607 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv1 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,607 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/dw1 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,607 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv2 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,608 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv3 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,608 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/dw2 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,608 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv4 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,608 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv5 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,608 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/dw3 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,609 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv6 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,609 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/ew_add1 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,609 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv7 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,609 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/dw4 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,609 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv8 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,610 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv9 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,610 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/dw5 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,610 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv10 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,610 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/ew_add2 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,610 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv11 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,610 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/dw6 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,611 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv12 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,611 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/ew_add3 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,611 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv13 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,611 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/dw7 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,611 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv14 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,612 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv15 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,612 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/dw8 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,612 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv16 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,612 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/ew_add4 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,612 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv17 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,613 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/dw9 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,613 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv18 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,613 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/ew_add5 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,613 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv19 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,614 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/dw10 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,614 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv20 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,614 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/ew_add6 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,614 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv21 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,614 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/dw11 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,615 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv22 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,615 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv23 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,615 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/dw12 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,616 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv24 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,616 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/ew_add7 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,616 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv25 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,616 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/dw13 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,616 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv26 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,616 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/ew_add8 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,617 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv27 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,617 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/dw14 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,617 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv28 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,617 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv29 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,617 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/dw15 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,618 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv30 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,618 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/ew_add9 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,618 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv31 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,618 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/dw16 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,618 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv32 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,619 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/ew_add10 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,619 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv33 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,619 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/dw17 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,619 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv34 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,619 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/conv35 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,620 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/avgpool1 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,620 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/fc1 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,620 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/softmax1 has implicit precision config during compilation, filling default values
+2026-03-14 16:31:17,620 - DEPRECATION_WARNING - hailo_nn.py:1625 - Layer mars_model_float32/output_layer1 has implicit precision config during compilation, filling default values
+2026-03-14 16:32:39,822 - INFO - main.py:34 - Current Time: 16:32:39, 03/14/26
+2026-03-14 16:32:40,833 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 0.1%
+2026-03-14 16:32:40,834 - INFO - main.py:50 - Memory: Total: 31GB, Available: 24GB
+2026-03-14 16:32:40,834 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-85-generic
+2026-03-14 16:32:40,835 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-03-14 16:32:40,836 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-03-14 16:32:40,846 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-03-14 16:32:40,846 - INFO - main.py:109 - Running `hailo optimize /home/rshehayi/reem_tests/mars-landmark-classification/mars_landmark.har --hw-arch hailo8 --use-random-calib-set --output-har-path /home/rshehayi/reem_tests/mars-landmark-classification/mars_landmark_quant.har`
+2026-03-14 16:32:41,479 - INFO - calib_set_generator.py:130 - Found model with 3 input channels, using real RGB images for calibration instead of sampling random data.
+2026-03-14 16:32:41,590 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-03-14 16:32:41,684 - WARNING - mo_config.py:168 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's no available GPU
+2026-03-14 16:32:41,684 - WARNING - mo_config.py:233 - Running model optimization with zero level of optimization is not recommended for production use and might lead to suboptimal accuracy results
+2026-03-14 16:32:41,685 - INFO - mo_script_parser.py:91 - Model received quantization params from the hn
+2026-03-14 16:32:42,999 - INFO - algorithm_base.py:149 - MatmulDecompose skipped
+2026-03-14 16:32:43,034 - INFO - algorithm_base.py:152 - Starting Mixed Precision
+2026-03-14 16:32:43,232 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Mixed Precision is done (completion time is 00:00:00.20)
+2026-03-14 16:32:43,408 - INFO - algorithm_base.py:149 - LayerNorm Decomposition skipped
+2026-03-14 16:32:43,763 - INFO - algorithm_base.py:152 - Starting Statistics Collector
+2026-03-14 16:32:43,766 - INFO - stats_collection.py:89 - Using dataset with 64 entries for calibration
+2026-03-14 16:32:51,228 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Statistics Collector is done (completion time is 00:00:07.46)
+2026-03-14 16:32:51,890 - INFO - algorithm_base.py:152 - Starting Fix zp_comp Encoding
+2026-03-14 16:32:51,891 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Fix zp_comp Encoding is done (completion time is 00:00:00.00)
+2026-03-14 16:32:51,891 - INFO - algorithm_base.py:149 - Matmul Equalization skipped
+2026-03-14 16:32:51,891 - INFO - algorithm_base.py:152 - Starting MatmulDecomposeFix
+2026-03-14 16:32:51,891 - INFO - algorithm_base.py:168 - Model Optimization Algorithm MatmulDecomposeFix is done (completion time is 00:00:00.00)
+2026-03-14 16:32:55,624 - INFO - algorithm_base.py:149 - Finetune encoding skipped
+2026-03-14 16:32:55,625 - INFO - algorithm_base.py:149 - Bias Correction skipped
+2026-03-14 16:32:55,629 - INFO - algorithm_base.py:149 - Adaround skipped
+2026-03-14 16:32:55,631 - INFO - algorithm_base.py:149 - Quantization-Aware Fine-Tuning skipped
+2026-03-14 16:32:58,412 - INFO - algorithm_base.py:149 - Layer Noise Analysis skipped
+2026-03-14 16:32:58,468 - INFO - quant_checker.py:171 - The calibration set seems to not be normalized, because the values range is [(0.0, 1.0), (0.0, 1.0), (0.0, 1.0)].
+Since the neural core works in 8-bit (between 0 to 255), a quantization will occur on the CPU of the runtime platform.
+Add a normalization layer to the model to offload the normalization to the neural core.
+Refer to the user guide Hailo Dataflow Compiler user guide / Model Optimization / Optimization Related Model Script Commands / model_modification_commands / normalization for details.
+2026-03-14 16:33:00,822 - IMPORTANT - sdk_backend.py:1145 - Model Optimization is done
+2026-03-14 16:33:01,071 - INFO - client_runner.py:1881 - Saved HAR to: /home/rshehayi/reem_tests/mars-landmark-classification/mars_landmark_quant.har
+2026-03-14 16:34:16,076 - INFO - main.py:34 - Current Time: 16:34:16, 03/14/26
+2026-03-14 16:34:17,087 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 0.1%
+2026-03-14 16:34:17,088 - INFO - main.py:50 - Memory: Total: 31GB, Available: 24GB
+2026-03-14 16:34:17,088 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-85-generic
+2026-03-14 16:34:17,089 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-03-14 16:34:17,090 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-03-14 16:34:17,100 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-03-14 16:34:17,100 - INFO - main.py:109 - Running `hailo compiler /home/rshehayi/reem_tests/mars-landmark-classification/mars_landmark_quant.har --hw-arch hailo8`
+2026-03-14 16:34:18,276 - INFO - compiler_cli.py:81 - Compiling network
+2026-03-14 16:34:18,288 - INFO - hailo_tools_runner.py:510 - To achieve optimal performance, set the compiler_optimization_level to "max" by adding performance_param(compiler_optimization_level=max) to the model script. Note that this may increase compilation time.
+2026-03-14 16:34:54,890 - INFO - compiler_cli.py:86 - Compilation complete
+2026-03-14 16:34:54,892 - INFO - compiler_cli.py:91 - Saved HEF to: /home/rshehayi/reem_tests/mars-landmark-classification/mars_model_float32.hef
+2026-03-14 16:34:55,137 - INFO - client_runner.py:1881 - Saved HAR to: /home/rshehayi/reem_tests/mars-landmark-classification/mars_model_float32_compiled.har

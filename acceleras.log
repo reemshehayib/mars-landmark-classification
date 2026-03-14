@@ -1,0 +1,15 @@
+2026-03-14 15:50:49,353 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-03-14 15:51:42,901 - INFO - __init__.py:28 - No GPU chosen and no suitable GPU found, falling back to CPU.
+2026-03-14 15:52:52,958 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-03-14 15:53:36,725 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-03-14 15:54:12,542 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-03-14 15:54:22,757 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-03-14 15:55:05,786 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-03-14 15:57:40,500 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-03-14 15:58:09,783 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-03-14 15:59:08,596 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-03-14 16:01:08,656 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-03-14 16:30:24,987 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-03-14 16:31:14,133 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-03-14 16:32:37,811 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-03-14 16:34:14,068 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
