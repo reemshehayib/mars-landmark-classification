@@ -13,3 +13,11 @@
 2026-03-14 16:31:14,133 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
 2026-03-14 16:32:37,811 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
 2026-03-14 16:34:14,068 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-10-08 12:01:36,076 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-10-08 12:01:40,795 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-10-08 12:01:42,738 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-10-08 12:01:48,735 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-10-08 12:02:39,594 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-10-08 12:03:36,031 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-10-08 12:04:03,309 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0
+2026-10-08 12:05:43,502 - INFO - nvidia_smi_gpu_selector.py:39 - No GPU chosen, Selected GPU 0

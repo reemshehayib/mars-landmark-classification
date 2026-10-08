@@ -224,3 +224,72 @@ Refer to the user guide Hailo Dataflow Compiler user guide / Model Optimization 
 2026-03-14 16:34:54,890 - INFO - compiler_cli.py:86 - Compilation complete
 2026-03-14 16:34:54,892 - INFO - compiler_cli.py:91 - Saved HEF to: /home/rshehayi/reem_tests/mars-landmark-classification/mars_model_float32.hef
 2026-03-14 16:34:55,137 - INFO - client_runner.py:1881 - Saved HAR to: /home/rshehayi/reem_tests/mars-landmark-classification/mars_model_float32_compiled.har
+2026-10-08 12:01:46,032 - INFO - main.py:34 - Current Time: 12:01:46, 10/08/26
+2026-10-08 12:01:47,044 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 0.6%
+2026-10-08 12:01:47,045 - INFO - main.py:50 - Memory: Total: 31GB, Available: 23GB
+2026-10-08 12:01:47,045 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-138-generic
+2026-10-08 12:01:47,048 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-10-08 12:01:47,050 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-10-08 12:01:47,067 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-10-08 12:01:47,068 - INFO - main.py:109 - Running `hailo --version`
+2026-10-08 12:01:51,844 - INFO - main.py:34 - Current Time: 12:01:51, 10/08/26
+2026-10-08 12:01:52,855 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 0.5%
+2026-10-08 12:01:52,856 - INFO - main.py:50 - Memory: Total: 31GB, Available: 23GB
+2026-10-08 12:01:52,856 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-138-generic
+2026-10-08 12:01:52,857 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-10-08 12:01:52,858 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-10-08 12:01:52,867 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-10-08 12:01:52,867 - INFO - main.py:109 - Running `hailo --version`
+2026-10-08 12:02:41,782 - INFO - main.py:34 - Current Time: 12:02:41, 10/08/26
+2026-10-08 12:02:42,796 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 0.8%
+2026-10-08 12:02:42,798 - INFO - main.py:50 - Memory: Total: 31GB, Available: 23GB
+2026-10-08 12:02:42,798 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-138-generic
+2026-10-08 12:02:42,800 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-10-08 12:02:42,803 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-10-08 12:02:42,814 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-10-08 12:02:42,814 - INFO - main.py:109 - Running `hailo --version`
+2026-10-08 12:03:38,197 - INFO - main.py:34 - Current Time: 12:03:38, 10/08/26
+2026-10-08 12:03:39,208 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 0.6%
+2026-10-08 12:03:39,209 - INFO - main.py:50 - Memory: Total: 31GB, Available: 23GB
+2026-10-08 12:03:39,209 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-138-generic
+2026-10-08 12:03:39,210 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-10-08 12:03:39,211 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-10-08 12:03:39,221 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-10-08 12:03:39,222 - INFO - main.py:109 - Running `hailo optimize mars_landmark.har --hw-arch hailo8 --calib-set-path calib_set.npy --model-script mars_landmark.alls --output-har-path mars_landmark_quant.har`
+2026-10-08 12:03:39,707 - INFO - client_runner.py:501 - Loading model script commands to mars_model_float32 from mars_landmark.alls
+2026-10-08 12:03:40,047 - IMPORTANT - sdk_backend.py:1133 - Starting Model Optimization
+2026-10-08 12:03:40,135 - WARNING - mo_config.py:168 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's no available GPU
+2026-10-08 12:03:40,135 - WARNING - mo_config.py:233 - Running model optimization with zero level of optimization is not recommended for production use and might lead to suboptimal accuracy results
+2026-10-08 12:03:40,136 - INFO - mo_script_parser.py:91 - Model received quantization params from the hn
+2026-10-08 12:03:41,529 - INFO - algorithm_base.py:149 - MatmulDecompose skipped
+2026-10-08 12:03:41,563 - INFO - algorithm_base.py:152 - Starting Mixed Precision
+2026-10-08 12:03:41,897 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Mixed Precision is done (completion time is 00:00:00.33)
+2026-10-08 12:03:42,080 - INFO - algorithm_base.py:149 - LayerNorm Decomposition skipped
+2026-10-08 12:03:42,296 - INFO - algorithm_base.py:152 - Starting Statistics Collector
+2026-10-08 12:03:42,300 - INFO - stats_collection.py:89 - Using dataset with 64 entries for calibration
+2026-10-08 12:03:51,392 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Statistics Collector is done (completion time is 00:00:09.09)
+2026-10-08 12:03:51,821 - INFO - algorithm_base.py:152 - Starting Fix zp_comp Encoding
+2026-10-08 12:03:51,822 - INFO - algorithm_base.py:168 - Model Optimization Algorithm Fix zp_comp Encoding is done (completion time is 00:00:00.00)
+2026-10-08 12:03:51,822 - INFO - algorithm_base.py:149 - Matmul Equalization skipped
+2026-10-08 12:03:51,822 - INFO - algorithm_base.py:152 - Starting MatmulDecomposeFix
+2026-10-08 12:03:51,822 - INFO - algorithm_base.py:168 - Model Optimization Algorithm MatmulDecomposeFix is done (completion time is 00:00:00.00)
+2026-10-08 12:03:55,632 - INFO - algorithm_base.py:149 - Finetune encoding skipped
+2026-10-08 12:03:55,643 - INFO - algorithm_base.py:149 - Bias Correction skipped
+2026-10-08 12:03:55,647 - INFO - algorithm_base.py:149 - Adaround skipped
+2026-10-08 12:03:55,649 - INFO - algorithm_base.py:149 - Quantization-Aware Fine-Tuning skipped
+2026-10-08 12:03:58,515 - INFO - algorithm_base.py:149 - Layer Noise Analysis skipped
+2026-10-08 12:04:01,002 - IMPORTANT - sdk_backend.py:1145 - Model Optimization is done
+2026-10-08 12:04:01,283 - INFO - client_runner.py:1881 - Saved HAR to: /home/rshehayi/embedded-systems/mars-landmark-classification/mars_landmark_quant.har
+2026-10-08 12:04:05,495 - INFO - main.py:34 - Current Time: 12:04:05, 10/08/26
+2026-10-08 12:04:06,505 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i9-13900KF, Number Of Cores: 32, Utilization: 1.2%
+2026-10-08 12:04:06,506 - INFO - main.py:50 - Memory: Total: 31GB, Available: 23GB
+2026-10-08 12:04:06,506 - INFO - main.py:54 - System info: OS: Linux, Kernel: 6.8.0-138-generic
+2026-10-08 12:04:06,507 - INFO - main.py:55 - Hailo DFC Version: 3.33.0
+2026-10-08 12:04:06,508 - INFO - main.py:60 - HailoRT Version: Not Installed
+2026-10-08 12:04:06,517 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2026-10-08 12:04:06,517 - INFO - main.py:109 - Running `hailo compiler mars_landmark_quant.har --hw-arch hailo8`
+2026-10-08 12:04:07,754 - INFO - compiler_cli.py:81 - Compiling network
+2026-10-08 12:04:07,770 - INFO - hailo_tools_runner.py:510 - To achieve optimal performance, set the compiler_optimization_level to "max" by adding performance_param(compiler_optimization_level=max) to the model script. Note that this may increase compilation time.
+2026-10-08 12:04:31,307 - INFO - compiler_cli.py:86 - Compilation complete
+2026-10-08 12:04:31,318 - INFO - compiler_cli.py:91 - Saved HEF to: /home/rshehayi/embedded-systems/mars-landmark-classification/mars_model_float32.hef
+2026-10-08 12:04:31,597 - INFO - client_runner.py:1881 - Saved HAR to: /home/rshehayi/embedded-systems/mars-landmark-classification/mars_model_float32_compiled.har
